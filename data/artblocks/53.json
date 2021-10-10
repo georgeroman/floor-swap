@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Subscapes",
+  "description": "A generative algorithm that draws the impression of a landscape from a multitude of possibilities. The unique seed from each token drives the parametric assortment of lines, colors, and forms into a constructed composition.",
+  "artist": "Matt DesLauriers",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/53000000.png",
+  "tokenIdRange": [
+    53000000,
+    53000649
+  ]
+}

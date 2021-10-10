@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "spawn",
+  "description": "a floating spawn has appeared ... this site hosts a garden of spawns ... each generated from a unique seed that determines varying conditions for how they're made.",
+  "artist": "john provencher",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/161000000.png",
+  "tokenIdRange": [
+    161000000,
+    161001000
+  ]
+}

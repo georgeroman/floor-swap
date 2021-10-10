@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Void",
+  "description": "What lies between everything else? A reflexion on scale, shapes, the infinitely small and the infinitely big.",
+  "artist": "Alexis André",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/42000000.png",
+  "tokenIdRange": [
+    42000000,
+    42000499
+  ]
+}

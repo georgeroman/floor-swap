@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "70s Pop Series One",
+  "description": "Leaning into a retro 70s groove, the perfect art for your space-pad. The input is simple, just two tiles, but how they're rotated and placed, that's the magic.",
+  "artist": "Daniel Catt",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/46000000.png",
+  "tokenIdRange": [
+    46000000,
+    46000255
+  ]
+}

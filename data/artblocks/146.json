@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Neighborhood",
+  "description": "Generative urban abstraction inspired by my early career in Chicago. 50% of minting proceeds will be directed to Habitat for Humanity.",
+  "artist": "Jeff Davis",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/146000000.png",
+  "tokenIdRange": [
+    146000000,
+    146000311
+  ]
+}

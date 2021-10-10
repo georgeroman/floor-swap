@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Ensō",
+  "description": "In Zen, ensō is a symbol that represents elegance and enlightenment. It is typically painted by hand in an uninhibited way, allowing for unexpected and beautiful results. Inspired by sumi-e (ink wash painting), this project mimics the practice of painting an ensō in ink by utilizing p5.js. Each generated image uses values from a unique transaction hash to determine paper, brush, ink, the quantity of ink held by each bristle, how quickly the ink flows, and more—all with the goal of creating a simple yet serendipitous painting.",
+  "artist": "Matto",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/34000000.png",
+  "tokenIdRange": [
+    34000000,
+    34000999
+  ]
+}

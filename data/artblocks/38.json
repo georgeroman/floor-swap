@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "♫ ByteBeats",
+  "description": "Generative music in 40-140 bytes on-chain. ByteBeats are miniature functions that synthesize audio (and video) via bitwise operations (&^|<<*+/%>>). Because bits form groups in powers of 2, 4/4 beat-driven music emergently self-organizes. Each function in this drop is itself randomly generated, grouped into six families of composition and four families of visualizers. Some ByteBeats loop, some generate new patterns indefinitely. Some are for headbanging, some are for climbing forever through oceans of phase cancelation. (Instructions",
+  "artist": "DADABOTS x KAI",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/38000000.png",
+  "tokenIdRange": [
+    38000000,
+    38000511
+  ]
+}

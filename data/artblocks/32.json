@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Light Beams",
+  "description": "A study of color in motion. Beams of light ebb and flow like ocean waves, their colors softly blending to form dreamy gradients.",
+  "artist": "Jason Ting",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/32000000.png",
+  "tokenIdRange": [
+    32000000,
+    32000149
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Cells",
+  "description": "CELLS was initially inspired by the very particular shape of neurons. I then gave free rein to my creativity and explored many of the aspects of these shapes (size, branches, form, colors, style, position, addition of elements, effects, and other surprises) to allow CELLS to generate a large number of very different variations. All parameters are set based on the unique transaction hash.",
+  "artist": "Hevey",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/122000000.png",
+  "tokenIdRange": [
+    122000000,
+    122001023
+  ]
+}

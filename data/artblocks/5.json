@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Variant Plan",
+  "description": "Variant Plan (F01Y20) is an exclusive generative art commission for Variant Fund by Jeff Davis. Each work in the series contains a randomized hash string that determines a unique layout and color placement for the plan. Every plan is unique and all logic for the artwork is stored immutably on the Ethereum blockchain.",
+  "artist": "Jeff Davis",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/5000000.png",
+  "tokenIdRange": [
+    5000000,
+    5000199
+  ]
+}

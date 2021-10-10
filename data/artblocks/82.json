@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Incantation",
+  "description": "Ancient runes deterministically arranged and animated in order to create mysterious magic spells.",
+  "artist": "Eliya Stein",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/82000000.png",
+  "tokenIdRange": [
+    82000000,
+    82000084
+  ]
+}

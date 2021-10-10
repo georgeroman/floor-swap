@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Messengers",
+  "description": "Those structures suddenly appeared, yet they don't talk to us. Yet.",
+  "artist": "Alexis André",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/68000000.png",
+  "tokenIdRange": [
+    68000000,
+    68000349
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Meridian",
+  "description": "Stratified landforms constructed from many small strokes of colour. The hash of each token describes a coordinate within a multidimensional generative space, locating a unique composition that lies along one of many possible longitudes.",
+  "artist": "Matt DesLauriers",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/163000000.png",
+  "tokenIdRange": [
+    163000000,
+    163000999
+  ]
+}

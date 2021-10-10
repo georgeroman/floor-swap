@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Aerial View",
+  "description": "My interpretation of Aerial View is a bird's Eye View over a city block with illuminated/twisted buildings and light trails. It uses an on-chain stored algorithm to represent the generative artwork based on a hash. Each Aerial comes with different distances, building elevations, rotations and colors. Welcome to my genesis project and the first step on my on-chain journey!",
+  "artist": "daLenz",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/35000000.png",
+  "tokenIdRange": [
+    35000000,
+    35000999
+  ]
+}

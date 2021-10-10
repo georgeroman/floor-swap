@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Gravity 12",
+  "description": "GRAVITY 12 is an exploration of the connection between math, art and nature. A network of nodes creates a gravitational field through which energy flows.",
+  "artist": "Jimmy Herdberg",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/96000000.png",
+  "tokenIdRange": [
+    96000000,
+    96000511
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Star Flower",
+  "description": "This algorithm features a generative pattern created after subtracting two small numbers using the sum to place circles. All colors, positions, and color patterns are based off Ethereum blockchain data.",
+  "artist": "Ruben Alexander",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/52000000.png",
+  "tokenIdRange": [
+    52000000,
+    52000999
+  ]
+}

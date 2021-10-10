@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Wave Schematics",
+  "description": "An arcane schematic encased within a rotating vortex. Token data determines palette, vortex attributes, and the arrangement of all lines and shapes.",
+  "artist": "luxpris",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/134000000.png",
+  "tokenIdRange": [
+    134000000,
+    134000399
+  ]
+}

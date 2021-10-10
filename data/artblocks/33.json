@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Empyrean",
+  "description": "Empyrean - an exploration of form modeled after the highest heaven, domain of the fifth element. Each piece is unique and has many different attributes such as size, line style, color scheme, and some other features you'll have to discover. This piece is interactive, so mess around with your keyboard to find out what you can do.",
+  "artist": "Generative Artworks",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/33000000.png",
+  "tokenIdRange": [
+    33000000,
+    33000499
+  ]
+}

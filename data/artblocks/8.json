@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Singularity",
+  "description": "Every Singularity is unique. Each form’s properties; Symmetry, Chaos, Mass, Force and Turbulence are driven by data extracted from the transaction hash.",
+  "artist": "Hideki Tsukamoto",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/8000000.png",
+  "tokenIdRange": [
+    8000000,
+    8001023
+  ]
+}

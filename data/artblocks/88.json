@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Orthogone",
+  "description": "'Orthogone' is a succession of main colored rectangles, echoed with white - sometimes black - rectangles. You may guess buildings or squared ricochets, and sense the underlying rhythm.",
+  "artist": "Pandelune",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/88000000.png",
+  "tokenIdRange": [
+    88000000,
+    88000776
+  ]
+}

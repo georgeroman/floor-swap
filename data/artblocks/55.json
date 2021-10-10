@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Talking Blocks",
+  "description": "Talking Blocks listens to the Blockchain hash # and creates a unique artwork with a signature stamped into the image that is a direct message from the blockchain. This provides the collector an assurance of authenticity while leveraging the blockchain to generate a unique message, a retina print of the blockchain hash #. This is an instantly recognizable visual signature. You can interact with the artwork to modulate a sonic reaction of oscillating circular waves. The permanent immutability of the underlying token hash # is combined with a non-repeatable signature from a person interacting with the artwork, all in real-time. In other words, you can have a conversation with the Blockchain.",
+  "artist": "REMO x DCsan",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/55000000.png",
+  "tokenIdRange": [
+    55000000,
+    55000511
+  ]
+}

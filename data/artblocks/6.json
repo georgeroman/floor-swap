@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "View Card",
+  "description": "View Cards are generative abstractions of high-rise buildings. Based on the programmable artwork View Program, each View Card contains a randomized seed that selects one of 9 different window patterns, 4 different atmospheric conditions, and an overall color scheme based on 4 different reflections. Click on the Live View of the artwork to display your settings!",
+  "artist": "Jeff Davis",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/6000000.png",
+  "tokenIdRange": [
+    6000000,
+    6000040
+  ]
+}

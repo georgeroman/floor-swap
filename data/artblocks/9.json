@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Ignition",
+  "description": "Launched into crypto-space for the first time, I present my genesis project, a limited series of interactive 3D structures, rotating endlessly from their self-gravitational force. Each token minted is the result of a complex set of rules, an algorithm that processes the transaction hash and generates a unique piece of crypto-art. Purely written in JavaScript, using no external libraries or dependencies of any sort, these voyagers will forever be the testimony of hardcoded workmanship, a heritage of the old times. Deep space, do you copy?",
+  "artist": "ge1doot",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/9000000.png",
+  "tokenIdRange": [
+    9000000,
+    9000511
+  ]
+}

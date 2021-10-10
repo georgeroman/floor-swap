@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "720 Minutes",
+  "description": "A real-time live interactive piece that also acts as a clock. 720 unique ways to show the current time, one per minute over twelve hours. Each clock will activate on its given minute, giving you a special moment every twelve hours to consider what one minute means to you.",
+  "artist": "Alexis André",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/27000000.png",
+  "tokenIdRange": [
+    27000000,
+    27000719
+  ]
+}

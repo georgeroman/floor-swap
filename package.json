@@ -1,22 +1,31 @@
 {
-  "name": "nft-swap",
-  "version": "0.1.0",
+  "name": "floor-swap",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.1",
+    "@heroicons/react": "^1.0.4",
+    "@usedapp/core": "^0.5.1",
+    "ethers": "^5.4.7",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "swr": "^1.0.1"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.3.4",
     "@types/react": "17.0.26",
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2",
+    "autoprefixer": "^10.3.6",
+    "axios": "^0.22.0",
+    "node-html-parser": "^4.1.5",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16",
+    "ts-node": "^10.2.1",
     "typescript": "4.4.3"
   }
 }

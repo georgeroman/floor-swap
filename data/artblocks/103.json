@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Octo Garden",
+  "description": "OCTO GARDEN produces tightly wrapped spiral forms resembling moss or lichen. Occasionally, those structures will unfurl, revealing a beautiful Octopus. Some appear highly ordered. But others are more unruly.",
+  "artist": "Rich Lord",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/103000000.png",
+  "tokenIdRange": [
+    103000000,
+    103000332
+  ]
+}

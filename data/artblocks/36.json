@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Gazettes",
+  "description": "Gazettes is a generative art project by the Redlioneye Gazette team and Pxlq. The project pays tribute to print media and highlights classic formatting such as paragraph layouts, headings, variously styled texts, and images. We have mixed together our publication concept with classical journalism and generative art to deliver exciting, surprising, unique, and visually stunning\nrandom creations on chain and forever.",
+  "artist": "Redlioneye Gazette",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/36000000.png",
+  "tokenIdRange": [
+    36000000,
+    36001023
+  ]
+}

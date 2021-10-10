@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Traversals",
+  "description": "This series explores color in layered intersections. The unique hash determines the procedure of each traversal; endpoints, divergences, elevations, and color immersion. Left click or press any key for coruscation.",
+  "artist": "Loren Bednar",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/65000000.png",
+  "tokenIdRange": [
+    65000000,
+    65000149
+  ]
+}

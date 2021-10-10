@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Hashtractors",
+  "description": "Hashtractors are a collection of generative renderings of various parametric equations commonly know as \"strange attractors\". These equations are at the heart of chaos theory; a branch of mathematics focused on the study of dynamical systems that are highly sensitive to initial conditions. A selection of 29 different equations has been made for this collection. Hash data is used as their parameters.",
+  "artist": "Darien Brito",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/90000000.png",
+  "tokenIdRange": [
+    90000000,
+    90000127
+  ]
+}

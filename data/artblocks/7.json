@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Elevated Deconstructions",
+  "description": "A study in reduction based around several repeating elements. A unique hash string seeded within each token informs the composition of the work. Variables include the color of the background, the amount of times each of the elements are duplicated, the set distance between each duplicate, and the coordinates of each element. Each token is unique.",
+  "artist": "luxpris",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/7000000.png",
+  "tokenIdRange": [
+    7000000,
+    7000199
+  ]
+}

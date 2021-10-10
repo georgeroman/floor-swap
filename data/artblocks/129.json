@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Pigments",
+  "description": "Pigments is an exploration of colour and spatial distortion. Each instance is an abstract representation aimed at evoking a micro or macro-environment; from unknown substances, or oil in a canvas, to nebular formations. The pieces are animated, meant to be experienced live. The piece can run endlessly, with infinite output. To run it smoothly you need a capable GPU. If this proves to be too computationally intensive, or if you prefer a static view, feel free to press the spacebar.",
+  "artist": "Darien Brito",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/129000000.png",
+  "tokenIdRange": [
+    129000000,
+    129001023
+  ]
+}

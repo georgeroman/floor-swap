@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Divisions",
+  "description": "Divisions creates playful abstract compositions that can go all the way up to eleven.",
+  "artist": "Michael Connolly",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/108000000.png",
+  "tokenIdRange": [
+    108000000,
+    108000499
+  ]
+}

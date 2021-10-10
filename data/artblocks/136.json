@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "SpiroFlakes",
+  "description": "Complexity arising from the simplicity of sine and cosine. Never-ending generative spiro-art / snowflakes / guilloche. ___ space / click = pause / play ___ arrow up = increase speed ___ arrow down = decrease speed ___ arrow right = next ___ arrow left = reset speed",
+  "artist": "Alexander Reben",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/136000000.png",
+  "tokenIdRange": [
+    136000000,
+    136001023
+  ]
+}

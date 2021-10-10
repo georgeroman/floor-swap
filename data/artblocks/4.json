@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Dynamic Slices",
+  "description": "An on-chain experiment with interactive abstract art.",
+  "artist": "pxlq",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/4000000.png",
+  "tokenIdRange": [
+    4000000,
+    4000511
+  ]
+}

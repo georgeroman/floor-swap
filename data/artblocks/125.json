@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Calendart",
+  "description": "For many of us, our calendars can be a source of dread and stress. Calendart is inspired by the chaos of events that populate our everyday virtual lives and reimagines them as art.",
+  "artist": "steen & n-e-o",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/125000000.png",
+  "tokenIdRange": [
+    125000000,
+    125000364
+  ]
+}

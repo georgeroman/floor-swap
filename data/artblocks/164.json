@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Phototaxis",
+  "description": "“Phototaxis” is a simulated environment populated by simple machines. After Valentino Braitenberg’s 1984 book “Vehicles,” there are four kinds of machines with different wiring and behaviors",
+  "artist": "Casey REAS",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/164000000.png",
+  "tokenIdRange": [
+    164000000,
+    164000999
+  ]
+}

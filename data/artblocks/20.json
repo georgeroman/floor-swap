@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Sentience",
+  "description": "What does self-aware art look like?",
+  "artist": "pxlq",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/20000000.png",
+  "tokenIdRange": [
+    20000000,
+    20000143
+  ]
+}

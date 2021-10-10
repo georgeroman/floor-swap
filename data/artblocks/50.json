@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "The Opera",
+  "description": "On a cosmic stage, these actors sing an infinite song. What do they reach for? Who are they searching for? Do their faces show wonder—or sadness? Sometimes they sing for themselves, sometimes they sing for the crowd, and sometimes they sing for the void. Like us. (25% to environmental charities)",
+  "artist": "Luke Shannon",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/50000000.png",
+  "tokenIdRange": [
+    50000000,
+    50000255
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Endless Nameless",
+  "description": "Endless Nameless is an exploration of composition. We start with a square. The square is divided into sections. The sections are filled with color pairs. Sometimes all colors are used. Sometimes fewer colors are used.",
+  "artist": "Rafaël Rozendaal",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/120000000.png",
+  "tokenIdRange": [
+    120000000,
+    120000999
+  ]
+}

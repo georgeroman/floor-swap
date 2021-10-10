@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Dot Matrix Gradient Study",
+  "description": "Dot Matrix Gradient Study takes my approach of splitting the canvas into \"patches\", which each have their own stipple sizing, density, and layering, and distorts this process to create outputs which blur the lines of recognizable stippling. This piece is an exploration of creating abstract forms with stippling rather than depicting figurative ones. All pieces in this series are composed purely with dots. Some more than others. 50% of sales proceeds from Dot Matrix Gradient Study were donated on-chain at the time of mint to GiveDirectly, where the funds will be directed to helping those in poverty.",
+  "artist": "Jake Rockland",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/149000000.png",
+  "tokenIdRange": [
+    149000000,
+    149000539
+  ]
+}

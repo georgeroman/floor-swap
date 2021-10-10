@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Nucleus",
+  "description": "Nucleus is a procedural crypto-art project, mathematics moves points around a nexus point like subatomic particles around a nucleus, forming accidental geometric patterns. The appearance and movement of each token is driven by a unique hash, no two are the same. Best viewed in motion as a live script.",
+  "artist": "Hjalmar Åström",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/123000000.png",
+  "tokenIdRange": [
+    123000000,
+    123000511
+  ]
+}

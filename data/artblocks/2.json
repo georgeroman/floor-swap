@@ -1,0 +1,11 @@
+{
+  "address": "0x059edd72cd353df5106d2b9cc5ab83a52287ac3a",
+  "name": "Construction Token",
+  "description": "Each Construction Token is unique and contains a randomized seed that determines the composition of the artwork. This includes the number, orientation, and placement of rectangles, as well as the color selections. Most tokens are monochromatic, with occasional light or dark variants. In some cases, the script will produce a token using complementary colors.",
+  "artist": "Jeff Davis",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/2000000.png",
+  "tokenIdRange": [
+    2000000,
+    2000499
+  ]
+}

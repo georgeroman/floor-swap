@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Rhythm",
+  "description": "\"The rhythm of a design is characterized by the placement of its elements and the direction and speed of their visual movement.\" -Foundations of Design // 50% of artist proceeds from minting will be donated to No Kid Hungry.",
+  "artist": "Jeff Davis",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/57000000.png",
+  "tokenIdRange": [
+    57000000,
+    57000333
+  ]
+}

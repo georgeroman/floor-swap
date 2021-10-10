@@ -1,0 +1,11 @@
+{
+  "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+  "name": "Origami Dream",
+  "description": "'Origami Dreams' represents me in a very intimate way. It is the product of doing generative artwork for years, experimenting in the intersection between movement, poetry and mathematics. Each piece is determined by a random seed. There are two possible states in the artwork, one static and one dynamic. You can switch between the two states with a mouse click. The prime number 13 guides all of the artwork. You will get one of 13 different characters, and each 'Origami' is defined by 13 random points. There are also two layers of 'stars', completely random in color and position. The possibilities are infinite, and every mint is a different outcome.",
+  "artist": "k0ch",
+  "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/43000000.png",
+  "tokenIdRange": [
+    43000000,
+    43000222
+  ]
+}
