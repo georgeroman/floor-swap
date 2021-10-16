@@ -31,7 +31,7 @@ export const signOrder = async (
   const domain = {
     name: "0x Protocol",
     version: "3.0.0",
-    chainId: process.env.NEXT_PUBLIC_CHAIN_ID,
+    chainId: 1,
     verifyingContract: EXCHANGE.address,
   };
 

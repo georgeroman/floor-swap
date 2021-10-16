@@ -11,13 +11,15 @@ const AppWrapper = ({ Component, pageProps }: AppProps) => {
     <DAppProvider config={{}}>
       <Head>
         <title>Floor Swap</title>
-        <meta name="description" content="NFT floor orders powered by 0x" />
+        <meta name="description" content="NFT floor orders powered by 0x v3" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Heading />
 
-      <Component {...pageProps} />
+      <div className="md:m-5 flex flex-col justify-center">
+        <Component {...pageProps} />
+      </div>
     </DAppProvider>
   );
 };

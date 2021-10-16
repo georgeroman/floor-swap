@@ -4,9 +4,9 @@
     "name": "Chromie Squiggle",
     "description": "Simple and easily identifiable, each squiggle embodies the soul of the Art Blocks platform. Consider each my personal signature as an artist, developer, and tinkerer. Public minting of the Chromie Squiggle is permanently paused. They are now reserved for manual distribution to collectors and community members over a longer period of time. Please visit OpenSea to explore Squiggles available on the secondary market.",
     "artist": "Snowfro",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/0.png",
     "tokenIdRange": [0, 9999],
-    "animationUrl": "https://generator.artblocks.io/0",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/0"
   },
   "genesis": {
@@ -14,9 +14,9 @@
     "name": "Genesis",
     "description": "Genesis",
     "artist": "DCA",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/1000000.png",
     "tokenIdRange": [1000000, 1000511],
-    "animationUrl": "https://generator.artblocks.io/1000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/1"
   },
   "nimbuds": {
@@ -24,9 +24,9 @@
     "name": "NimBuds",
     "description": "A collection of on-chain, generative cumulonimbus buddies. Created using vanilla javascript, each unique NimBud features random wires, colors, eyes, mouths, cloud bodies, and more. Each with their own personality.",
     "artist": "Bryan Brinkman",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/10000000.png",
     "tokenIdRange": [10000000, 10000399],
-    "animationUrl": "https://generator.artblocks.io/10000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/10"
   },
   "century": {
@@ -34,9 +34,9 @@
     "name": "CENTURY",
     "description": "CENTURY is my homage to paintings and drawings from the twentieth century and the countless hours I’ve spent looking at them. The references span the origins of concrete and non-objective art to color-field painting and minimalism. The strongest direct reference is a series of pictures created by Ellsworth Kelly in the 1950s where he cut his paintings into pieces and reassembled them in different orders. CENTURY creates a distinct picture for each unique transaction hash, and you can “cut” and “reassemble” it in different ways by pressing ‘1’ on your keyboard. Press ‘2’ to put the slices in the original order. These are landscapes; they look best large and in motion running as live code.",
     "artist": "Casey REAS",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/100000000.png",
     "tokenIdRange": [100000000, 100000999],
-    "animationUrl": "https://generator.artblocks.io/100000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/100"
   },
   "enchiridion": {
@@ -44,9 +44,9 @@
     "name": "Enchiridion",
     "description": "Enchiridion is inspired by the Enchiridion Physicae Restitutae by Jean D'Espagnet which rejected the idea of the empyrean, claiming that all natural things exist in unity. This is represented through geometric forms which show structure, unity, and causation vs. the amorphous forms of Empyrean.",
     "artist": "Generative Artworks",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/101000000.png",
     "tokenIdRange": [101000000, 101001023],
-    "animationUrl": "https://generator.artblocks.io/101000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/101"
   },
   "i-saw-it-in-a-dream": {
@@ -54,9 +54,9 @@
     "name": "I Saw It in a Dream",
     "description": "What do you see when you close your eyes and your retinas still burn from computer screen light?",
     "artist": "Steve Pikelny",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/102000000.png",
     "tokenIdRange": [102000000, 102001023],
-    "animationUrl": "https://generator.artblocks.io/102000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/102"
   },
   "octo-garden": {
@@ -64,9 +64,9 @@
     "name": "Octo Garden",
     "description": "OCTO GARDEN produces tightly wrapped spiral forms resembling moss or lichen. Occasionally, those structures will unfurl, revealing a beautiful Octopus. Some appear highly ordered. But others are more unruly.",
     "artist": "Rich Lord",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/103000000.png",
     "tokenIdRange": [103000000, 103000332],
-    "animationUrl": "https://generator.artblocks.io/103000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/103"
   },
   "eccentrics": {
@@ -74,9 +74,9 @@
     "name": "Eccentrics",
     "description": "A study in composition using simple shapes and layout rules. When repetitive patterns fail, and the symmetry isn't quite right, the images are strangely evocative. Somewhere between art deco, pop art, and sci-fi.",
     "artist": "Radix",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/104000000.png",
     "tokenIdRange": [104000000, 104000399],
-    "animationUrl": "https://generator.artblocks.io/104000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/104"
   },
   "gizmobotz": {
@@ -84,9 +84,9 @@
     "name": "Gizmobotz",
     "description": "Gizmobotz live on the Ethereum Blockchain, assembled in clusters of 9. Each Gizmobot runs its individual algorithm in coordination with the other bots within the cluster. Gizmobotz are assigned their colors and arranged in clusters based on the transaction hash string. Be sure to check out the Live View to see the Gizmobotz at work!",
     "artist": "Mark Cotton",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/105000000.png",
     "tokenIdRange": [105000000, 105000999],
-    "animationUrl": "https://generator.artblocks.io/105000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/105"
   },
   "radiance": {
@@ -94,9 +94,9 @@
     "name": "Radiance",
     "description": "Radiance explores the combination of simple line patterns structured at different scale to produce unique connected geometric forms. Resulting shapes can vary from minimal to organic and intricate with an underlying modulation of line spacing radiating from center.",
     "artist": "Julien Gachadoat",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/106000000.png",
     "tokenIdRange": [106000000, 106000511],
-    "animationUrl": "https://generator.artblocks.io/106000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/106"
   },
   "low-tide": {
@@ -104,9 +104,9 @@
     "name": "Low Tide",
     "description": "Aquatic Zen gardens. Rediscovering the childhood joy of exploring low tide microcosms. Motion and geometry inspired by the mathematical order inherent in everything that surrounds us.",
     "artist": "Artem Verkhovskiy x Andy Shaw",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/107000000.png",
     "tokenIdRange": [107000000, 107000372],
-    "animationUrl": "https://generator.artblocks.io/107000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/107"
   },
   "divisions": {
@@ -114,9 +114,9 @@
     "name": "Divisions",
     "description": "Divisions creates playful abstract compositions that can go all the way up to eleven.",
     "artist": "Michael Connolly",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/108000000.png",
     "tokenIdRange": [108000000, 108000499],
-    "animationUrl": "https://generator.artblocks.io/108000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/108"
   },
   "speckled-summits": {
@@ -124,9 +124,9 @@
     "name": "Speckled Summits",
     "description": "Dreamy landscapes inspired by the Rockies. 50% of the minting proceeds for Speckled Summits will be donated to GiveWell's Maximum Impact Fund (https",
     "artist": "Jake Rockland",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/109000000.png",
     "tokenIdRange": [109000000, 109000071],
-    "animationUrl": "https://generator.artblocks.io/109000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/109"
   },
   "hyperhash": {
@@ -134,9 +134,9 @@
     "name": "HyperHash",
     "description": "HyperHash explores the possibilities of representing abstract data on Ethereum as intuitive color and geometry spaces. Focus of research are topics like geometry & symbolism. The artworks generate a futuristic, telepathic & symbolic language for Etherians. All artworks have unique colors, geometry and motion signatures live generated on your gpu through shader (GLSL) code.",
     "artist": "Beervangeer",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/11000000.png",
     "tokenIdRange": [11000000, 11000368],
-    "animationUrl": "https://generator.artblocks.io/11000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/11"
   },
   "lava-glow": {
@@ -144,9 +144,9 @@
     "name": "Lava Glow",
     "description": "Digital 3D light sculpture made of a sphere in a cube. Using noise algorithms, the sphere gets displaced to reveal it's colorful glowing core and illuminates it's environment, creating an endless organic and soothing real-time animation. The transaction hash value is used to determine the scale and octave of the noise, the color palette and the amount of displacement. Created with threejs and GLSL shaders. A WebXR viewer will be available to see the artwork in 3D on desktop, mobile, AR and VR and take high res screenshots. This artwork will be released via Dutch Auction, with the price starting at 1.5Ξ dropping in 0.1Ξ increments every 5 minutes until 0.1Ξ.",
     "artist": "JEANVASCRIPT",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/110000000.png",
     "tokenIdRange": [110000000, 110000499],
-    "animationUrl": "https://generator.artblocks.io/110000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/110"
   },
   "70s-pop-ghost-bonus-pack-👻": {
@@ -154,9 +154,9 @@
     "name": "70s Pop Ghost Bonus Pack 👻",
     "description": "Last of the 70s Pops, gone but not quite dead 👻 nothing but black & white groovy patterns, perfect for colouring in. Some people say the spirits of the 70s haunt these, but that would be ridiculous! All Ξ from primary sales will be going to the Women Who Code non-profit organisation.",
     "artist": "Daniel Catt",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/111000000.png",
     "tokenIdRange": [111000000, 111000063],
-    "animationUrl": "https://generator.artblocks.io/111000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/111"
   },
   "alien-clock": {
@@ -164,9 +164,9 @@
     "name": "Alien Clock",
     "description": "Somewhere in a galaxy far away, a multidimensional being is looking at this clock and thinking about the impermanence of existence and the infinity of the universe. This art is endless and deterministic. Use full screen for full immersion. Click/tap or use keys 1 to 9 to switch speed. s = toggle starts. t = toggle hyperspace. Space = pause. It is part of the TBOA project. Check your collection at https",
     "artist": "Shvembldr",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/112000000.png",
     "tokenIdRange": [112000000, 112000361],
-    "animationUrl": "https://generator.artblocks.io/112000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/112"
   },
   "celestial-cyclones": {
@@ -174,9 +174,9 @@
     "name": "celestial cyclones",
     "description": "An interactive experience inspired by the classic breakout game. Destroy all the orbiting barriers and reach the core, while creating your own unique melody. Controls",
     "artist": "hideo",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/113000000.png",
     "tokenIdRange": [113000000, 113000627],
-    "animationUrl": "https://generator.artblocks.io/113000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/113"
   },
   "glitch-crystal-monsters": {
@@ -184,9 +184,9 @@
     "name": "glitch crystal monsters",
     "description": "A synthesis of over 777 days of generative artmaking, motion as survival, and coding as transformative ritual. Sky gardens of trustless techno-leviathans crystallize, entangle, and play between dimensions online and AFK, generating new forms altogether. I channel these speculative phenomena to highlight the fluid, transformative possibilities of structures perceived as rigid and immutable. Their intricate geometries move freely beyond limited social media compression that severely reduces the experience of digital art. These formations also embody choreographic elements from collaborative live coding dance performance.",
     "artist": "Alida Sun",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/114000000.png",
     "tokenIdRange": [114000000, 114000999],
-    "animationUrl": "https://generator.artblocks.io/114000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/114"
   },
   "dot-grid": {
@@ -194,9 +194,9 @@
     "name": "Dot Grid",
     "description": "Inspired by Dutch artist Piet Mondrian. Made with an interest in color theory and a love for color in general.",
     "artist": "TheElephantNL",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/115000000.png",
     "tokenIdRange": [115000000, 115000999],
-    "animationUrl": "https://generator.artblocks.io/115000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/115"
   },
   "flowers": {
@@ -204,9 +204,9 @@
     "name": "Flowers",
     "description": "Beautiful bouquets of generative flowers, with fascinating diversity in numbers, shapes and colour combinations. Each one has its own personality, its own character, and is always stunning and surprising, as you can expect with flowers in their natural form.",
     "artist": "RVig",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/116000000.png",
     "tokenIdRange": [116000000, 116006157],
-    "animationUrl": "https://generator.artblocks.io/116000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/116"
   },
   "transitions": {
@@ -214,9 +214,9 @@
     "name": "Transitions",
     "description": "A collaborative project that transitions the visual aesthetic of a Matt Bilfield peg piece to the generative art world. “Pixels” from the physical world take on new life as the limitations of reality are removed and they are free to assemble and morph without the rigidity or permanence of wood, paint and glue. Round and square variants incorporate multiple color palettes into four unique styles, each with their own distinct attributes. Additional variety in dimensions, depth, color placement, animation, and light modes ensure no two are alike. Make sure to explore the intricacies of each piece by using the mouse to see all angles. Keyboard shortcuts",
     "artist": "Jason Ting x Matt Bilfield",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/117000000.png",
     "tokenIdRange": [117000000, 117004711],
-    "animationUrl": "https://generator.artblocks.io/117000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/117"
   },
   "lewitt-generator-generator": {
@@ -224,9 +224,9 @@
     "name": "LeWitt Generator Generator",
     "description": "Sol LeWitt's Wall Drawing #118 instructs executors to connect randomly-placed points with straight lines, on a continuous surface of wall. Art Blocks Project #118 imagines that seminal artwork executed on complex, algorithmically-generated walls.",
     "artist": "Mitchell F. Chan",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/118000000.png",
     "tokenIdRange": [118000000, 118000749],
-    "animationUrl": "https://generator.artblocks.io/118000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/118"
   },
   "ecumenopolis": {
@@ -234,9 +234,9 @@
     "name": "Ecumenopolis",
     "description": "Ecumenopolis focuses on exploration and discovery, generating scenes of cityscapes in unknown worlds. 10% of the minting profits will be donated to the National Alliance to End Homelessness (https",
     "artist": "Joshua Bagley",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/119000000.png",
     "tokenIdRange": [119000000, 119000675],
-    "animationUrl": "https://generator.artblocks.io/119000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/119"
   },
   "unigrids": {
@@ -244,9 +244,9 @@
     "name": "Unigrids",
     "description": "Unigrids are collectible digital art pieces 100% stored on the Ethereum blockchain. Each Unigrid consists of 421 individual Pure Javascript generated SVG grids, ensuring each Unigrid is entirely unique. Not only are Unigrids visually unique, but they also hide an ingenious animation and a generated beat to enhance your experience. Unigrids are an experiential piece of art, with a static image for printing, an animation, and companion beat - all generated and stored on the blockchain. You truly need to play around with Unigrids to understand the essence of them. Be sure to hold onto your favorite piece as we will be adding interactive easter eggs for art owners, giveaways, and other engagement with the community.",
     "artist": "Zeblocks",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/12000000.png",
     "tokenIdRange": [12000000, 12000420],
-    "animationUrl": "https://generator.artblocks.io/12000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/12"
   },
   "endless-nameless": {
@@ -254,9 +254,9 @@
     "name": "Endless Nameless",
     "description": "Endless Nameless is an exploration of composition. We start with a square. The square is divided into sections. The sections are filled with color pairs. Sometimes all colors are used. Sometimes fewer colors are used.",
     "artist": "Rafaël Rozendaal",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/120000000.png",
     "tokenIdRange": [120000000, 120000999],
-    "animationUrl": "https://generator.artblocks.io/120000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/120"
   },
   "rinascita": {
@@ -264,9 +264,9 @@
     "name": "Rinascita",
     "description": "When feeling stuck, go back to your roots. Rinascita is the legacy of Essenza, rebirth through epiphany. A celebration of gratitude, joy, and family. In a sudden awareness of the raw greatness of life.",
     "artist": "Stefano Contiero",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/121000000.png",
     "tokenIdRange": [121000000, 121001110],
-    "animationUrl": "https://generator.artblocks.io/121000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/121"
   },
   "cells": {
@@ -274,9 +274,9 @@
     "name": "Cells",
     "description": "CELLS was initially inspired by the very particular shape of neurons. I then gave free rein to my creativity and explored many of the aspects of these shapes (size, branches, form, colors, style, position, addition of elements, effects, and other surprises) to allow CELLS to generate a large number of very different variations. All parameters are set based on the unique transaction hash.",
     "artist": "Hevey",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/122000000.png",
     "tokenIdRange": [122000000, 122001023],
-    "animationUrl": "https://generator.artblocks.io/122000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/122"
   },
   "nucleus": {
@@ -284,9 +284,9 @@
     "name": "Nucleus",
     "description": "Nucleus is a procedural crypto-art project, mathematics moves points around a nexus point like subatomic particles around a nucleus, forming accidental geometric patterns. The appearance and movement of each token is driven by a unique hash, no two are the same. Best viewed in motion as a live script.",
     "artist": "Hjalmar Åström",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/123000000.png",
     "tokenIdRange": [123000000, 123000511],
-    "animationUrl": "https://generator.artblocks.io/123000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/123"
   },
   "the-liths-of-sisyphus": {
@@ -294,9 +294,9 @@
     "name": "The Liths of Sisyphus",
     "description": "Somewhere between worlds forgotten and worlds not yet discovered, Sisyphus labours tirelessly. At the mercy of the Gods and their disdain for his cunningness, his destiny is bound to his artistry. Rock by rock, trench by trench, on mountaintops and in the pits of the underworld, Sisyphus forges his creations. When will he have bought his freedom? When will he have made his peace? As the Gods keep playing dice and the numbers roll in, Sisyphus toils relentlessly.",
     "artist": "nonfigurativ",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/124000000.png",
     "tokenIdRange": [124000000, 124000776],
-    "animationUrl": "https://generator.artblocks.io/124000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/124"
   },
   "calendart": {
@@ -304,9 +304,9 @@
     "name": "Calendart",
     "description": "For many of us, our calendars can be a source of dread and stress. Calendart is inspired by the chaos of events that populate our everyday virtual lives and reimagines them as art.",
     "artist": "steen & n-e-o",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/125000000.png",
     "tokenIdRange": [125000000, 125000364],
-    "animationUrl": "https://generator.artblocks.io/125000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/125"
   },
   "timepiece": {
@@ -314,9 +314,9 @@
     "name": "Timepiece",
     "description": "Timepiece is an exploration in objective and subjective time. Each Timepiece is a dynamic figure with different graphic and kinetic characteristics that give it a unique personality — from calm and subtle to fast and playful. The piece is a clock that runs in real-time, and the form is generated by the positions of the clock hands, which appear when clicked and reveal the underlying mechanics of the piece. The thumbnail of each piece reflects the time it was minted (in UTC).",
     "artist": "WAWAA",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/126000000.png",
     "tokenIdRange": [126000000, 126000499],
-    "animationUrl": "https://generator.artblocks.io/126000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/126"
   },
   "labyrometry": {
@@ -324,9 +324,9 @@
     "name": "Labyrometry",
     "description": "A labyrinth of geometric specters. Shapes are painted between layers of fog and sometimes presented encased in bold frames. Shadows are cast to create depth and entice the viewer to step inside. Each invocation represents an imaginary room in an abstract maze-like building.",
     "artist": "Eliya Stein",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/127000000.png",
     "tokenIdRange": [127000000, 127000799],
-    "animationUrl": "https://generator.artblocks.io/127000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/127"
   },
   "pigments": {
@@ -334,9 +334,9 @@
     "name": "Pigments",
     "description": "Pigments is an exploration of colour and spatial distortion. Each instance is an abstract representation aimed at evoking a micro or macro-environment; from unknown substances, or oil in a canvas, to nebular formations. The pieces are animated, meant to be experienced live. The piece can run endlessly, with infinite output. To run it smoothly you need a capable GPU. If this proves to be too computationally intensive, or if you prefer a static view, feel free to press the spacebar.",
     "artist": "Darien Brito",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/129000000.png",
     "tokenIdRange": [129000000, 129001023],
-    "animationUrl": "https://generator.artblocks.io/129000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/129"
   },
   "ringers": {
@@ -344,9 +344,9 @@
     "name": "Ringers",
     "description": "There are an almost infinite number of ways to wrap a string around a set of pegs. On the surface it may seem like a simple concept but prepare to be surprised and delighted at the variety of combinations the algorithm can produce. Each output from 'Ringers' is derived from a unique transaction hash and generated in Javascript in the browser. Feature variations include peg count, sizing, layout, wrap orientation, and a few colorful flourishes for good measure.",
     "artist": "Dmitri Cherniak",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/13000000.png",
     "tokenIdRange": [13000000, 13000999],
-    "animationUrl": "https://generator.artblocks.io/13000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/13"
   },
   "obicera": {
@@ -354,9 +354,9 @@
     "name": "Obicera",
     "description": "They answered. Will the message be one of peace?",
     "artist": "Alexis André",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/130000000.png",
     "tokenIdRange": [130000000, 130000528],
-    "animationUrl": "https://generator.artblocks.io/130000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/130"
   },
   "scribbled-boundaries": {
@@ -364,9 +364,9 @@
     "name": "Scribbled Boundaries",
     "description": "Scribbles on Scribbles on Scribbles ➿ This series is an exploration of chaos and order – how seemingly random movements in the microscopic scale can be more than meets the eye. Simple guiding rules transfigure chaotic movements into beautiful order. Life, as we know it, can be expressed in a similar fashion. Our decisions, unexpected occurrences, and even our seemingly meaningless place in the Universe are not just mere coincidences, but providential orchestrations of the Designer. [ Mints will be sold via a dutch auction. Starting price will be set at 3eth and decrease every 5 minutes with a resting price of 0.25eth. i.e.\n3eth, 2.5eth, 2eth, 1.5eth, 1.25eth, 1.0eth, 0.75eth, 0.5eth, 0.25eth ]",
     "artist": "William Tan",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/131000000.png",
     "tokenIdRange": [131000000, 131001023],
-    "animationUrl": "https://generator.artblocks.io/131000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/131"
   },
   "tangled": {
@@ -374,9 +374,9 @@
     "name": "Tangled",
     "description": "What would a transaction hash look like in space? This project explores the spatial properties of 32-byte hashes by intertwining bezier curves based on them. Floating on deformed blobs, both the curves and their companions are constructed by mapping parts of the hash to the screen. Forever yours to untie, slowly drifting in aether space - the metaverse is surely tangled. ——— Best enjoyed in live view - touch/click anywhere to stop the animation, press ’s’ to save an image.",
     "artist": "Superblob",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/132000000.png",
     "tokenIdRange": [132000000, 132000383],
-    "animationUrl": "https://generator.artblocks.io/132000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/132"
   },
   "organized-disruption": {
@@ -384,9 +384,9 @@
     "name": "Organized Disruption",
     "description": "\"Organized Disruption\" uses a circle packing algorithm to position and scale objects on a plane in an organized pleasing composition. A series of weighted probabilities determines how this composition is disrupted by picking 1 of 3 forms... squares, spheres (slight elevation off plane), rectangles (extreme elevation off plane). Probability also determines 1 of 9 color sets (some colors being harder to acquire), and 3 possible color animations (slow, medium, fast). Each seeded token hash \"might\" unlock a collection of mouse interactions... proximity object displacement, proximity scale up, proximity scale down, proximity object mutation, proximity object rotation. All minted compositions include \"mouse + click + drag\" to rotate the system. All minted compositions can press the \"s\" key on your keyboard to \"save\" an image.",
     "artist": "Joshua Davis / PrayStation",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/133000000.png",
     "tokenIdRange": [133000000, 133000999],
-    "animationUrl": "https://generator.artblocks.io/133000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/133"
   },
   "wave-schematics": {
@@ -394,9 +394,9 @@
     "name": "Wave Schematics",
     "description": "An arcane schematic encased within a rotating vortex. Token data determines palette, vortex attributes, and the arrangement of all lines and shapes.",
     "artist": "luxpris",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/134000000.png",
     "tokenIdRange": [134000000, 134000399],
-    "animationUrl": "https://generator.artblocks.io/134000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/134"
   },
   "brushpops": {
@@ -404,9 +404,9 @@
     "name": "Brushpops",
     "description": "Brushpops is a generative system inspired by Roy Lichtenstein’s iconic work, where a random hash determines the composition of a series of abstract brush strokes. Lichtenstein’s original work has separated the brushstrokes from their original context, and now we take another step in the same direction, and separate the artist from the work. The artist has to relinquish control, and set the work free, where only some loosely-predetermined rules and a hash number will determine the actual outcome. The Brushstroke was detached from the painting, and it’s now detached from the artist as well.",
     "artist": "Matty Mariansky",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/135000000.png",
     "tokenIdRange": [135000000, 135000999],
-    "animationUrl": "https://generator.artblocks.io/135000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/135"
   },
   "spiroflakes": {
@@ -414,9 +414,9 @@
     "name": "SpiroFlakes",
     "description": "Complexity arising from the simplicity of sine and cosine. Never-ending generative spiro-art / snowflakes / guilloche. ___ space / click = pause / play ___ arrow up = increase speed ___ arrow down = decrease speed ___ arrow right = next ___ arrow left = reset speed",
     "artist": "Alexander Reben",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/136000000.png",
     "tokenIdRange": [136000000, 136001023],
-    "animationUrl": "https://generator.artblocks.io/136000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/136"
   },
   "alien-insects": {
@@ -424,9 +424,9 @@
     "name": "Alien Insects",
     "description": "These are the military alien insects. They are symmetrical and asymmetrical simultaneously for existence in several dimensions. Being in a team, they unite into a collective mind increasing each other's abilities. Click to change mode (standard, skeleton, avatar). Press 1 to 9 to set pixel density according to the numbers. This is part of the TBOA project. You can compete against other collectors in Alien Insect Battle on the TBOA club website",
     "artist": "Shvembldr",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/137000000.png",
     "tokenIdRange": [137000000, 137000999],
-    "animationUrl": "https://generator.artblocks.io/137000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/137"
   },
   "geometry-runners": {
@@ -434,9 +434,9 @@
     "name": "Geometry Runners",
     "description": "The starting gun goes💥, and its happening. Packs of racers, proudly sporting their team colors, are competing in the race of their lives. Some are going for it. Others can't really be bothered. But you know this is where the action is at. Absolute drama around every corner. Who will be victorious, and who will stumble. Take a better look at the group by touch/click dragging the scene.",
     "artist": "Rich Lord",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/138000000.png",
     "tokenIdRange": [138000000, 138000999],
-    "animationUrl": "https://generator.artblocks.io/138000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/138"
   },
   "eccentrics-2": {
@@ -444,9 +444,9 @@
     "name": "Eccentrics 2",
     "description": "We've studied the strange geometric images since they appeared. Our instruments detect new shapes, new colors, more depth, and detail. Are they evolving, or just getting closer? More study is needed.",
     "artist": "Radix",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/139000000.png",
     "tokenIdRange": [139000000, 139000499],
-    "animationUrl": "https://generator.artblocks.io/139000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/139"
   },
   "cyber-cities": {
@@ -454,9 +454,9 @@
     "name": "Cyber Cities",
     "description": "Futuristic space vibes.",
     "artist": "pxlq",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/14000000.png",
     "tokenIdRange": [14000000, 14000255],
-    "animationUrl": "https://generator.artblocks.io/14000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/14"
   },
   "good-vibrations": {
@@ -464,9 +464,9 @@
     "name": "Good Vibrations",
     "description": "Good Vibrations is a kind of philosophy from our culture. It's not just a graphic, or melody. It mentions our journey through all of our lives. Inspired by Minimalism and some works of Ligeti György Sándor and Steve Reich, Good Vibrations creates unique geometries by each unique transaction hash. \"Everything in Life is Vibration\" Albert Einstein's states. The universal law of nature states that everything has its vibration, and all vibrations will make their voice audible or inaudible. It’s all of our events in the totality of our life, from every dimension—and we cannot determine if they are good or bad, dark, or light.",
     "artist": "Aluan Wang",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/140000000.png",
     "tokenIdRange": [140000000, 140001023],
-    "animationUrl": "https://generator.artblocks.io/140000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/140"
   },
   "rapture": {
@@ -474,9 +474,9 @@
     "name": "Rapture",
     "description": "Rapture is a series exploring magical seals overflowing their boundaries, gradually dissolving into the surroundings. It is imagined as abstract iconography for a fictional mystic religion. Rapture is the conclusion of a system I have been working with and perfecting over several years and it is the first time that it is presented completely autonomous. The series consists of computationally heavy art pieces, with calculations happening while the seal shake to contain its powers. 25% of the proceeds from this project will go to the preservation of the Ecuadorian rainforest Bigai through Randers Rainforest Wildlife Foundation.",
     "artist": "Thomas Lin Pedersen",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/141000000.png",
     "tokenIdRange": [141000000, 141000999],
-    "animationUrl": "https://generator.artblocks.io/141000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/141"
   },
   "unknown-signals": {
@@ -484,9 +484,9 @@
     "name": "Unknown Signals",
     "description": "There are many mysterious waves that surround us, from deep space signals to hidden radio stations. 'Unknown Signals' is a reminder of the fascinating world of radio waves that our eyes cannot catch. Click to stop/start the animation. Press the 'b' key to remove the foreground.",
     "artist": "k0ch",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/142000000.png",
     "tokenIdRange": [142000000, 142000999],
-    "animationUrl": "https://generator.artblocks.io/142000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/142"
   },
   "phase": {
@@ -494,9 +494,9 @@
     "name": "phase",
     "description": "This project is a visual representation of realities that are out of phase. Interference patterns, colorful echoes, and emerging secrets are explored. Mathematical functions produce constant motion, but rarely, a peaceful scene resolves within the chaos. Click or press any key to pause. *Photosensitive seizure warning",
     "artist": "Loren Bednar",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/143000000.png",
     "tokenIdRange": [143000000, 143001023],
-    "animationUrl": "https://generator.artblocks.io/143000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/143"
   },
   "autorad": {
@@ -504,9 +504,9 @@
     "name": "autoRAD",
     "description": "The 1980's and 1990's as an iterative dream, computer-aided RAD designs. Essentially, an expanded iterative Memphis/Neo-Memphis style project meant to emulate the free-flowing and fun spirit of the movement in tight compositions that surprise with each combination and position generation.",
     "artist": "sgt_slaughtermelon & Tartaria Archivist",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/144000000.png",
     "tokenIdRange": [144000000, 144000999],
-    "animationUrl": "https://generator.artblocks.io/144000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/144"
   },
   "beatboxes": {
@@ -514,9 +514,9 @@
     "name": "Beatboxes",
     "description": "Beatboxes are fully immersive, virtual reality, audiovisual generative art on the Ethereum blockchain. Beatboxes consist of 841 generated unique rooms where you can fully immerse yourself with any virtual reality device. You can also enjoy them from your pc in a more conventional way. Beatboxes are our second experimental piece of art, following the successful release of Unigrids. The goal with this collection was to create an environment where you can escape your reality for a moment and enjoy your unique piece of art while stimulating the most senses possible. You can open your eyes inside your unique art piece and explore by looking around and listening as you enjoy something you own. In live view use arrows to move around and spacebar to start the music and animation. Visit beatboxes.io to browse all Beatboxes more easily, Have fun! *note that Beatboxes are using aframe which is currently not optimized for ios mobile and safari browser.",
     "artist": "Zeblocks",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/145000000.png",
     "tokenIdRange": [145000000, 145000840],
-    "animationUrl": "https://generator.artblocks.io/145000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/145"
   },
   "neighborhood": {
@@ -524,9 +524,9 @@
     "name": "Neighborhood",
     "description": "Generative urban abstraction inspired by my early career in Chicago. 50% of minting proceeds will be directed to Habitat for Humanity.",
     "artist": "Jeff Davis",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/146000000.png",
     "tokenIdRange": [146000000, 146000311],
-    "animationUrl": "https://generator.artblocks.io/146000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/146"
   },
   "trossets": {
@@ -534,9 +534,9 @@
     "name": "Trossets",
     "description": "Trossets explores the emergence of diversity. Combining twelve construction blocks the system generates endless patterns with a unique result each iteration. Trossets /trusɛts/ means parts, blocks, pieces and it's my particular homage to a classical generative system, the multiscale Truchet tiles. The systems plays an interlocking blocks game creating unexpected drawings with colors borrowed from the Mediterranean. To keep this colors alive 10% of the profits will be donated to Marilles Foundation, an NGO for marine conservation (https",
     "artist": "Anna Carreras",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/147000000.png",
     "tokenIdRange": [147000000, 147000999],
-    "animationUrl": "https://generator.artblocks.io/147000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/147"
   },
   "dot-matrix-gradient-study": {
@@ -544,9 +544,9 @@
     "name": "Dot Matrix Gradient Study",
     "description": "Dot Matrix Gradient Study takes my approach of splitting the canvas into \"patches\", which each have their own stipple sizing, density, and layering, and distorts this process to create outputs which blur the lines of recognizable stippling. This piece is an exploration of creating abstract forms with stippling rather than depicting figurative ones. All pieces in this series are composed purely with dots. Some more than others. 50% of sales proceeds from Dot Matrix Gradient Study were donated on-chain at the time of mint to GiveDirectly, where the funds will be directed to helping those in poverty.",
     "artist": "Jake Rockland",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/149000000.png",
     "tokenIdRange": [149000000, 149000539],
-    "animationUrl": "https://generator.artblocks.io/149000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/149"
   },
   "utopia": {
@@ -554,9 +554,9 @@
     "name": "Utopia",
     "description": "We were succeeding at creating a reflect of the old home place in our new land. We hoped we had not re-created our mistakes.",
     "artist": "ge1doot",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/15000000.png",
     "tokenIdRange": [15000000, 15000255],
-    "animationUrl": "https://generator.artblocks.io/15000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/15"
   },
   "primilife": {
@@ -564,9 +564,9 @@
     "name": "PrimiLife",
     "description": "The second chapter in the Primitive Trilogy. Out of the primordial soup of PrimiDance some life forms began emerging... Drag with mouse/touch to get better views; 🌪️ p",
     "artist": "wuwa",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/150000000.png",
     "tokenIdRange": [150000000, 150001023],
-    "animationUrl": "https://generator.artblocks.io/150000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/150"
   },
   "high-tide": {
@@ -574,9 +574,9 @@
     "name": "High Tide",
     "description": "At the shoreline, waves wash over the sand, sorting and tumbling the grains into troughs and valleys. Each wash of water alters the microcosmic landscape in an infinitesimal loop. Inspired by the unfathomable mathematics of this natural phenomena, we invite you to plunge into the purity of movement and transformation through the medium of ones and zeros. The palette and pixels are regulated by an algorithm designed to mimic the textures, colours and gradients of the high tide beach, while the edition of 745 reflects the number of minutes in a full tidal cycle. Keyboard controls",
     "artist": "Artem Verkhovskiy x Andy Shaw",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/151000000.png",
     "tokenIdRange": [151000000, 151000744],
-    "animationUrl": "https://generator.artblocks.io/151000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/151"
   },
   "fake-internet-money": {
@@ -584,9 +584,9 @@
     "name": "Fake Internet Money",
     "description": "Fake Internet Money is not legal tender, and may not be redeemable or exchangeable with other parties or markets following its initial offering. The Artist is not a licensed or registered money transmitter in any district, state, or country. The Money is not a financial security. The Artist makes no claims of adding any further value to the project. Owners of The Money have no reasonable expectation of profit. Any marketing statements made by The Artist should not be taken as investment advice. The secondary market value of The Money may be highly volatile, and The Artist makes no guarantees regarding its liquidity or stability relative to any crypto or fiat currency. All value derived from The Money is entirely subjective. All code is licensed under a Creative Commons Attribution-NonCommercial 4.0 License, and is provided without warranty of any kind. In no event shall The Artist be held liable for any damages arising from the code or resulting tokens. The typeface is derived from Shippori Mincho B1, which is licensed under a SIL Open Font License. 30% of proceeds were converted to real money and donated to Give Directly.",
     "artist": "Steve Pikelny",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/152000000.png",
     "tokenIdRange": [152000000, 152000999],
-    "animationUrl": "https://generator.artblocks.io/152000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/152"
   },
   "we": {
@@ -594,9 +594,9 @@
     "name": "We",
     "description": "When thinking about community, we could observe the differences and things in common. There is a purpose for us to be together. It influences our behavior, identities, and choices. The diversity of shapes, colors, and combinations in this work is the metaphor for how we are connected and how these connections influence a complex web, which is represented here in this form that resembles a beehive. Bees have an enormous sense of community, a behavior essential for their survival. In this work, a single feature can radically alter the perception of form as a whole. The work contains eight possible shapes",
     "artist": "Vamoss",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/153000000.png",
     "tokenIdRange": [153000000, 153001023],
-    "animationUrl": "https://generator.artblocks.io/153000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/153"
   },
   "warp": {
@@ -604,9 +604,9 @@
     "name": "Warp",
     "description": "“Our lives are patterns of the fabric produced by the loom of time and space” (Shohaku Okumura). Looms and computers share a history of entanglement, weaving together patterns of binary code. Warp is a work of generative textiles. Modulations of form are woven to create intricate structures, stretching the metaphor of a loom. 25% of artist’s proceeds will be donated to Alianza Arkana, a grassroots alliance committed to the protection and well-being of the Peruvian Amazon and the Shipibo-Konibo peoples.",
     "artist": "espina",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/154000000.png",
     "tokenIdRange": [154000000, 154000443],
-    "animationUrl": "https://generator.artblocks.io/154000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/154"
   },
   "moments": {
@@ -614,9 +614,9 @@
     "name": "Moments",
     "description": "How many moments make up a life? Some pass by without much thought while others last forever. They provoke emotions within us similar to frequencies on a wavelength. Moments is a journey into the simplicity yet profound complexity that a moment brings to our lives. Inspired by abstract expressionist oil paintings, each Moment is generated and cemented forever on the blockchain. These are the only moments we have. Never let them go.",
     "artist": "r4v3n",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/156000000.png",
     "tokenIdRange": [156000000, 156001023],
-    "animationUrl": "https://generator.artblocks.io/156000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/156"
   },
   "ultrawave-369": {
@@ -624,9 +624,9 @@
     "name": "UltraWave 369",
     "description": "UltraWave 369 reflects our deep longing for unity, belonging and understanding of the universe. 369 units of light seeking enlightenment, traveling to their source... A balancing act between order and chaos. ** Best viewed in livemode and fullscreen **",
     "artist": "Beervangeer",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/157000000.png",
     "tokenIdRange": [157000000, 157000368],
-    "animationUrl": "https://generator.artblocks.io/157000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/157"
   },
   "a-heart-and-a-soul": {
@@ -634,9 +634,9 @@
     "name": "a heart and a soul",
     "description": "A geometric composition of a contrasting middle \"heart\" and an outer \"soul\". The seed of the symmetrical heart is broken into varying amount of chambers that are calculated to keep its corridors at the exact constant width in order to preserve its rigid mathematical character, yet provide enough space for variety for interesting geometrical patterns. The composition is balanced by a contrasting loose intertwining soul spreading to the borders of the passepartout that, along with the lining, give the piece a feeling of antiqueness. Heart and soul may also contain anomalies and unusual palettes.",
     "artist": "Roman Janajev",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/158000000.png",
     "tokenIdRange": [158000000, 158001023],
-    "animationUrl": "https://generator.artblocks.io/158000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/158"
   },
   "fragments-of-an-infinite-field": {
@@ -644,9 +644,9 @@
     "name": "Fragments of an Infinite Field",
     "description": "“Fragments of an infinite field” is a compositional system in which an idealized plant species is generated and arranged in a potentially infinite field of foliage. The main environmental parameter of the composition is the determination of a season of the year. The season determines the landscape’s colors and defines specific phenomena for each of them, such as rain in summer, snow in winter, petals falling in autumn, and pollen in spring. The flower has several possible variables, which can be macro aspects, affecting the entire population of the species, or micro, affecting each individual of the species differently. For example, the number of petals can be equal in all individuals or not. The number of filaments and other structures of the flower can undergo minor deviations, generating small mutations. The confusion between the figure (plant) and the background (earth, sky, other natural elements) is fascinating from a compositional point of view. The background colors are, most of the time, colors present in the figures, often breaking the boundary between them and, therefore, generating chromatic masses. In this project I also intend to research the following question",
     "artist": "Monica Rizzolli",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/159000000.png",
     "tokenIdRange": [159000000, 159001023],
-    "animationUrl": "https://generator.artblocks.io/159000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/159"
   },
   "color-study": {
@@ -654,9 +654,9 @@
     "name": "Color Study",
     "description": "Exploring the interaction of four parent colors.",
     "artist": "Jeff Davis",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/16000000.png",
     "tokenIdRange": [16000000, 16001999],
-    "animationUrl": "https://generator.artblocks.io/16000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/16"
   },
   "seadragons": {
@@ -664,9 +664,9 @@
     "name": "Seadragons",
     "description": "\"Seadragons\" is a generative catalogue of imaginary sea creatures from Syngnathidae family. Each seadragon belongs to one of the real Weedy, Leafy or Ribboned species, while the patterns and the small leaf-like appendages are an artistic interpretation. The dragons are rendered in real-time allowing you to watch them slowly drifting in the water or moving your mouse to nudge them slightly.\n\nThis project is a continuation of my long term fascination with using code to recreate forms and patterns occurring in nature. By using a range of non-photorealistic rendering techniques I strive to document those explorations as if they were actual sketches, posters or biological illustrations of the encountered specimens. Algorithmic variations of their patterns, sizes, colors, poses, complexity and surrounding seaweed present in each artwork are only a minor drop compared to the diversity observed in natural environments. \n\n15% of profits will be donated to oceana.org for protecting and restoring the world’s oceans on a global scale. Another 10% will be donated to givewell.org.",
     "artist": "Marcin Ignac",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/160000000.png",
     "tokenIdRange": [160000000, 160000999],
-    "animationUrl": "https://generator.artblocks.io/160000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/160"
   },
   "spawn": {
@@ -674,9 +674,9 @@
     "name": "spawn",
     "description": "a floating spawn has appeared ... this site hosts a garden of spawns ... each generated from a unique seed that determines varying conditions for how they're made.",
     "artist": "john provencher",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/161000000.png",
     "tokenIdRange": [161000000, 161001000],
-    "animationUrl": "https://generator.artblocks.io/161000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/161"
   },
   "democracity": {
@@ -684,9 +684,9 @@
     "name": "Democracity",
     "description": "Democracity is inspired by the diorama of the same name at the 1939 New York World's Fair which depicted a utopian city of the future. This piece satirizes the concept showing that the optimism of the 1930's did not account for the problems of the future brought about by climate change such as flooding. This piece is fully interactive with the best way to experience it being to explore and try to understand the stories that the different city layouts are trying to tell you. Note the cities are tileable meaning you can easily edit them together visually (Example",
     "artist": "Generative Artworks",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/162000000.png",
     "tokenIdRange": [162000000, 162001023],
-    "animationUrl": "https://generator.artblocks.io/162000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/162"
   },
   "meridian": {
@@ -694,9 +694,9 @@
     "name": "Meridian",
     "description": "Stratified landforms constructed from many small strokes of colour. The hash of each token describes a coordinate within a multidimensional generative space, locating a unique composition that lies along one of many possible longitudes.",
     "artist": "Matt DesLauriers",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/163000000.png",
     "tokenIdRange": [163000000, 163000999],
-    "animationUrl": "https://generator.artblocks.io/163000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/163"
   },
   "phototaxis": {
@@ -704,9 +704,9 @@
     "name": "Phototaxis",
     "description": "“Phototaxis” is a simulated environment populated by simple machines. After Valentino Braitenberg’s 1984 book “Vehicles,” there are four kinds of machines with different wiring and behaviors",
     "artist": "Casey REAS",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/164000000.png",
     "tokenIdRange": [164000000, 164000999],
-    "animationUrl": "https://generator.artblocks.io/164000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/164"
   },
   "gravity-16": {
@@ -714,9 +714,9 @@
     "name": "Gravity 16",
     "description": "Gravity 16 is about movement, transformation and exploration. It's about different stages of thought. From the birth of an idea, to starting a journey, a growing mind, to getting lost and suddenly finding back, seeing the light, succeeding and finally fading away.  The collection consist of 14 different themes, all generated with the same algorithm.",
     "artist": "Jimmy Herdberg",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/165000000.png",
     "tokenIdRange": [165000000, 165001023],
-    "animationUrl": "https://generator.artblocks.io/165000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/165"
   },
   "ouroboros": {
@@ -724,9 +724,9 @@
     "name": "Ouroboros",
     "description": "\"Ouroboros\" is inspired from the idea that we as humans must continually devour ourselves to be reborn with new understanding. The algorithm is a grid of rounded squares, continuously spinning, an eternal cycle which expresses unity of matter and spirit which never disappear but perpetually change form through this cycle of destruction and re-creation. A multitude of color palettes, grid sizes, blend modes, border styles and shadows allow this project to generate some beautifully mesmerizing outputs. Click for enlightenment. Charity",
     "artist": "Shane Rich | raregonzo",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/166000000.png",
     "tokenIdRange": [166000000, 166001023],
-    "animationUrl": "https://generator.artblocks.io/166000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/166"
   },
   "blaschke-ballet": {
@@ -734,9 +734,9 @@
     "name": "Blaschke Ballet",
     "description": "Blaschke Ballet is a reflection on movement, color, and mathematics - a juxtaposition of graceful motion and precise calculation. Observe the elegant ballerinas as they leap through the complex plane, the space between them constantly collapsing and reassembling.",
     "artist": "NumbersInMotion",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/167000000.png",
     "tokenIdRange": [167000000, 167000599],
-    "animationUrl": "https://generator.artblocks.io/167000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/167"
   },
   "bloom": {
@@ -744,9 +744,9 @@
     "name": "Bloom",
     "description": "Bloom is a story about a flower and its life cycle. Each leaf and petal's shape, location, and variations (color, opacity, shading, contrast, and more) are uniquely generated based on the token's hash. Over a period of time determined by the hash (weeks, months, even years), each element of the flower will break away and float to the floor, ultimately becoming a pile of leaves and petals. The dynamic evolution of this piece  is meant to be a reminder of the fleeting nature of life. Memento Mori.\nDutch auction starting at 2Ξ and decreasing every 5 minutes to 0.25Ξ (2->1->0.75->0.5->0.4->0.35->0.3->0.25).\n25% of sales over base price will be donated to the charities included on our website.",
     "artist": "Blockchance",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/168000000.png",
     "tokenIdRange": [168000000, 168001110],
-    "animationUrl": "https://generator.artblocks.io/168000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/168"
   },
   "augmented-sequence": {
@@ -754,9 +754,9 @@
     "name": "Augmented Sequence",
     "description": "Primitive shapes generate complex and chaotic snapshots of a larger form, still images with a sense of rapid motion, going through repetitive sequencing of parametrized mathematical functions, rotations and placement of objects. Augmented Sequence is a project by Joonas Toivonen, building upon work on audiovisual installations and electronic music performances. The parameters for sequence attributes, shapes, lighting, materials and colors are driven by the hash of the minting transaction, producing unique and surprising results.",
     "artist": "toiminto",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/169000000.png",
     "tokenIdRange": [169000000, 169001023],
-    "animationUrl": "https://generator.artblocks.io/169000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/169"
   },
   "spectron": {
@@ -764,9 +764,9 @@
     "name": "Spectron",
     "description": "This edition of video artworks is the result of my research in video art from the 60s and 70s, especially early analog video synthesizers. These were heavy hardware machines capable of generating shapes and patterns from the ground up, with no external visual input. How could these machines generate such complexity by just manipulating electronic voltage? I decided to investigate this process. Although with modern technologies, Spectron shares the procedural logic with its analog ancestors.",
     "artist": "Simon De Mai",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/17000000.png",
     "tokenIdRange": [17000000, 17000399],
-    "animationUrl": "https://generator.artblocks.io/17000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/17"
   },
   "himinn": {
@@ -774,9 +774,9 @@
     "name": "Himinn",
     "description": "Himinn is a painterly cloud study exploring light, color, and the generative composition of clouds in the sky. The algorithm creates natural forms and the illusion of ever-changing atmosphere through carefully structured layers of color and shape. Himinn means “a sky”, and it has been incredibly fun to paint the skies with code.  \nDrop Mechanic",
     "artist": "Sarah Ridgley",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/171000000.png",
     "tokenIdRange": [171000000, 171000999],
-    "animationUrl": "https://generator.artblocks.io/171000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/171"
   },
   "rituals---venice": {
@@ -784,9 +784,9 @@
     "name": "Rituals - Venice",
     "description": "Rituals combines generative music and generative artwork to create 1000 unique windows into a singular parametric universe. The music and art are crafted to infinitely evolve, giving collectors a subtly new experience upon each viewing. If left running, a single Ritual will continue generating music and art without repeating for ~9 million years. We invite you to hold space for yourself and enjoy a moment of mindful stillness. The first 200 were minted IRL in Venice, CA, USA in September 2021.\n\nBest experienced on modern equipment. Click to start.\n\nArtwork by Aaron Penne (@aaronpenne), music by Boreta (@boreta), music system produced by Counterpoint (ctpt.co).",
     "artist": "Aaron Penne x Boreta",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/172000000.png",
     "tokenIdRange": [172000000, 172000999],
-    "animationUrl": "https://generator.artblocks.io/172000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/172"
   },
   "skulptuur": {
@@ -794,9 +794,9 @@
     "name": "Skulptuur",
     "description": "An exploration in generating forms in 3-dimensional space. This exclusive set of sculptures has been carved from a sea of infinite possibilities, much like a sculptor creates a singular reality from the potential in a block of stone. The shapes are illuminated by a variety of complex virtual lighting environments and yet the piece retains algorithmic minimalism with the code reduced to its pure essence -- 6370 bytes. Skulptuurs render in real time. In live view, the image keeps improving in quality. Keys 0-7 change speed",
     "artist": "Piter Pasma",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/173000000.png",
     "tokenIdRange": [173000000, 173000999],
-    "animationUrl": "https://generator.artblocks.io/173000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/173"
   },
   "letters-to-my-future-self": {
@@ -804,9 +804,9 @@
     "name": "Letters to My Future Self",
     "description": "Letters to My Future Self is a series looking at communication through time. There is so much I want to tell my future self that words can't express",
     "artist": "Ryan Struhl",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/174000000.png",
     "tokenIdRange": [174000000, 174000999],
-    "animationUrl": "https://generator.artblocks.io/174000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/174"
   },
   "gen-2": {
@@ -814,9 +814,9 @@
     "name": "Gen 2",
     "description": "Generative System 2",
     "artist": "DCA",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/18000000.png",
     "tokenIdRange": [18000000, 18000255],
-    "animationUrl": "https://generator.artblocks.io/18000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/18"
   },
   "r3sonance": {
@@ -824,9 +824,9 @@
     "name": "R3sonance",
     "description": "Today the base orbiter has started to move. Oscillating harvesters had the ability to generate an enormous amount of self-sustaining energy. They seem to establish parallel communication in resonance with cosmic frequencies but I find myself unable to decode the signal into anything meaningful.",
     "artist": "ge1doot",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/19000000.png",
     "tokenIdRange": [19000000, 19000511],
-    "animationUrl": "https://generator.artblocks.io/19000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/19"
   },
   "construction-token": {
@@ -834,9 +834,9 @@
     "name": "Construction Token",
     "description": "Each Construction Token is unique and contains a randomized seed that determines the composition of the artwork. This includes the number, orientation, and placement of rectangles, as well as the color selections. Most tokens are monochromatic, with occasional light or dark variants. In some cases, the script will produce a token using complementary colors.",
     "artist": "Jeff Davis",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/2000000.png",
     "tokenIdRange": [2000000, 2000499],
-    "animationUrl": "https://generator.artblocks.io/2000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/2"
   },
   "sentience": {
@@ -844,9 +844,9 @@
     "name": "Sentience",
     "description": "What does self-aware art look like?",
     "artist": "pxlq",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/20000000.png",
     "tokenIdRange": [20000000, 20000143],
-    "animationUrl": "https://generator.artblocks.io/20000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/20"
   },
   "27-bit-digital": {
@@ -854,9 +854,9 @@
     "name": "27-Bit Digital",
     "description": "The essence of all things digital is– the bit. One or Zero. On or Off. Where digital becomes analog. This piece pays tribute to our digital legacy of 8-bit color and 7-segment LED displays– technological limitations which are mirrored in the constraints of putting art on the blockchain. Although the image represents the art, the art of the token itself is the code– which renders everything bitwise, pixel by pixel, all contained within 27-bits of information.",
     "artist": "kai",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/21000000.png",
     "tokenIdRange": [21000000, 21001023],
-    "animationUrl": "https://generator.artblocks.io/21000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/21"
   },
   "the-eternal-pump": {
@@ -864,9 +864,9 @@
     "name": "The Eternal Pump",
     "description": "Don't fight it. Just respect it. Made by Dmitri Cherniak with Javascript and GLSL.",
     "artist": "Dmitri Cherniak",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/22000000.png",
     "tokenIdRange": [22000000, 22000049],
-    "animationUrl": "https://generator.artblocks.io/22000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/22"
   },
   "archetype": {
@@ -874,9 +874,9 @@
     "name": "Archetype",
     "description": "Archetype explores the use of repetition as a counterweight to unruly, random structures. As each single component look chaotic alone, the repetition brings along a sense of intentionality, ultimately resulting in a complex, yet satisfying expression.",
     "artist": "Kjetil Golid",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/23000000.png",
     "tokenIdRange": [23000000, 23000599],
-    "animationUrl": "https://generator.artblocks.io/23000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/23"
   },
   "pixel-glass": {
@@ -884,9 +884,9 @@
     "name": "Pixel Glass",
     "description": "Subtle and beautiful pixellated glass.",
     "artist": "kai",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/24000000.png",
     "tokenIdRange": [24000000, 24000255],
-    "animationUrl": "https://generator.artblocks.io/24000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/24"
   },
   "pathfinders": {
@@ -894,9 +894,9 @@
     "name": "Pathfinders",
     "description": "Pathfinders is an interactive generative drawing project. The script sets color palettes, brush textures, a unique avatar, and assorted start screen layouts from token data. When viewing Pathfinders, left-click the starting image to erase your canvas and watch the deterministically chosen brush trail across the screen. When you are satisfied with the output, left-click again to pause, right-click and save your image, then share your results with others.",
     "artist": "luxpris",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/25000000.png",
     "tokenIdRange": [25000000, 25000999],
-    "animationUrl": "https://generator.artblocks.io/25000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/25"
   },
   "energysculpture": {
@@ -904,9 +904,9 @@
     "name": "EnergySculpture",
     "description": "To become an Energy Sculptor, you first have to find your way into MU. Once arrived, an extensive period of trials will test your capabilities for earning the right to be an Energy Sculptor.\n\nThis project is part of The Realm of MU saga.",
     "artist": "Beervangeer",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/26000000.png",
     "tokenIdRange": [26000000, 26000368],
-    "animationUrl": "https://generator.artblocks.io/26000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/26"
   },
   "720-minutes": {
@@ -914,9 +914,9 @@
     "name": "720 Minutes",
     "description": "A real-time live interactive piece that also acts as a clock. 720 unique ways to show the current time, one per minute over twelve hours. Each clock will activate on its given minute, giving you a special moment every twelve hours to consider what one minute means to you.",
     "artist": "Alexis André",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/27000000.png",
     "tokenIdRange": [27000000, 27000719],
-    "animationUrl": "https://generator.artblocks.io/27000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/27"
   },
   "apparitions": {
@@ -924,9 +924,9 @@
     "name": "Apparitions",
     "description": "“Apparitions” is an exploration of the space between algorithmic and organic. Each “Apparition” is unique to the transaction that originated it. Created by Aaron Penne",
     "artist": "Aaron Penne",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/28000000.png",
     "tokenIdRange": [28000000, 28001499],
-    "animationUrl": "https://generator.artblocks.io/28000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/28"
   },
   "inspirals": {
@@ -934,9 +934,9 @@
     "name": "Inspirals",
     "description": "Escher-style tiling of a plane, gone wrong. Each image spins hash-driven colors, shapes, and symmetries into infinity. Fly through the spiral as it morphs between beauty and madness. Keys",
     "artist": "Radix",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/29000000.png",
     "tokenIdRange": [29000000, 29000999],
-    "animationUrl": "https://generator.artblocks.io/29000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/29"
   },
   "cryptoblots": {
@@ -944,9 +944,9 @@
     "name": "Cryptoblots",
     "description": "A cryptoart collectible series to indulge the irrepressible human compulsion for pareidolia. This algorithmic homage to Hermann Rorschach's inkblot perception test will help you externalize your inner world onto the sometimes elegant, sometimes inchoate curves of a unique, one-of-a-kind, ownable cryptoblot on the Ethereum blockchain. What will YOUR cryptoblot reveal about you?",
     "artist": "Daïm Aggott-Hönsch",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/3000000.png",
     "tokenIdRange": [3000000, 3001920],
-    "animationUrl": "https://generator.artblocks.io/3000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/3"
   },
   "hieroglyphs": {
@@ -954,9 +954,9 @@
     "name": "Hieroglyphs",
     "description": "Simple rules - complex patterns. An exploration of abstract variation through generative symbols.",
     "artist": "pxlq",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/30000000.png",
     "tokenIdRange": [30000000, 30000999],
-    "animationUrl": "https://generator.artblocks.io/30000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/30"
   },
   "galaxiss": {
@@ -964,9 +964,9 @@
     "name": "Galaxiss",
     "description": "As the first on chain generative planets, I present my Galaxiss project. Each planet uses several layers of complex noises to generate nearly infinite variations of terrain, shapes, and biomes. Check out the lost airplane that has been signaled flying around and if you're lucky you might even catch another surprise chopper! Collect planets and build the Galaxiss of your dream!\n\np/h",
     "artist": "Xenoliss",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/31000000.png",
     "tokenIdRange": [31000000, 31000599],
-    "animationUrl": "https://generator.artblocks.io/31000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/31"
   },
   "light-beams": {
@@ -974,9 +974,9 @@
     "name": "Light Beams",
     "description": "A study of color in motion. Beams of light ebb and flow like ocean waves, their colors softly blending to form dreamy gradients.",
     "artist": "Jason Ting",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/32000000.png",
     "tokenIdRange": [32000000, 32000149],
-    "animationUrl": "https://generator.artblocks.io/32000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/32"
   },
   "empyrean": {
@@ -984,9 +984,9 @@
     "name": "Empyrean",
     "description": "Empyrean - an exploration of form modeled after the highest heaven, domain of the fifth element. Each piece is unique and has many different attributes such as size, line style, color scheme, and some other features you'll have to discover. This piece is interactive, so mess around with your keyboard to find out what you can do.",
     "artist": "Generative Artworks",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/33000000.png",
     "tokenIdRange": [33000000, 33000499],
-    "animationUrl": "https://generator.artblocks.io/33000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/33"
   },
   "ensō": {
@@ -994,9 +994,9 @@
     "name": "Ensō",
     "description": "In Zen, ensō is a symbol that represents elegance and enlightenment. It is typically painted by hand in an uninhibited way, allowing for unexpected and beautiful results. Inspired by sumi-e (ink wash painting), this project mimics the practice of painting an ensō in ink by utilizing p5.js. Each generated image uses values from a unique transaction hash to determine paper, brush, ink, the quantity of ink held by each bristle, how quickly the ink flows, and more—all with the goal of creating a simple yet serendipitous painting.",
     "artist": "Matto",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/34000000.png",
     "tokenIdRange": [34000000, 34000999],
-    "animationUrl": "https://generator.artblocks.io/34000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/34"
   },
   "aerial-view": {
@@ -1004,9 +1004,9 @@
     "name": "Aerial View",
     "description": "My interpretation of Aerial View is a bird's Eye View over a city block with illuminated/twisted buildings and light trails. It uses an on-chain stored algorithm to represent the generative artwork based on a hash. Each Aerial comes with different distances, building elevations, rotations and colors. Welcome to my genesis project and the first step on my on-chain journey!",
     "artist": "daLenz",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/35000000.png",
     "tokenIdRange": [35000000, 35000999],
-    "animationUrl": "https://generator.artblocks.io/35000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/35"
   },
   "gazettes": {
@@ -1014,9 +1014,9 @@
     "name": "Gazettes",
     "description": "Gazettes is a generative art project by the Redlioneye Gazette team and Pxlq. The project pays tribute to print media and highlights classic formatting such as paragraph layouts, headings, variously styled texts, and images. We have mixed together our publication concept with classical journalism and generative art to deliver exciting, surprising, unique, and visually stunning\nrandom creations on chain and forever.",
     "artist": "Redlioneye Gazette",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/36000000.png",
     "tokenIdRange": [36000000, 36001023],
-    "animationUrl": "https://generator.artblocks.io/36000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/36"
   },
   "paper-armada": {
@@ -1024,9 +1024,9 @@
     "name": "Paper Armada",
     "description": "Perfectly symmetric - imperfectly drawn. Exploring the contrast between precision and chance in a playful spacecraft / papercraft setting.",
     "artist": "Kjetil Golid",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/37000000.png",
     "tokenIdRange": [37000000, 37002999],
-    "animationUrl": "https://generator.artblocks.io/37000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/37"
   },
   "♫-bytebeats": {
@@ -1034,9 +1034,9 @@
     "name": "♫ ByteBeats",
     "description": "Generative music in 40-140 bytes on-chain. ByteBeats are miniature functions that synthesize audio (and video) via bitwise operations (&^|<<*+/%>>). Because bits form groups in powers of 2, 4/4 beat-driven music emergently self-organizes. Each function in this drop is itself randomly generated, grouped into six families of composition and four families of visualizers. Some ByteBeats loop, some generate new patterns indefinitely. Some are for headbanging, some are for climbing forever through oceans of phase cancelation. (Instructions",
     "artist": "DADABOTS x KAI",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/38000000.png",
     "tokenIdRange": [38000000, 38000511],
-    "animationUrl": "https://generator.artblocks.io/38000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/38"
   },
   "synapses": {
@@ -1044,9 +1044,9 @@
     "name": "Synapses",
     "description": "Synapses is a generative study on movement and texture. Thousands of particles flow in space leaving a trail of their journey. the movements are inspired by swarm behavior and flocking mechanism. The trails when left by each particle resembles the graphite or carbon smudges on the white canvas. The particles follow either single or multiple vectors to create these intricate details.",
     "artist": "Chaosconstruct",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/39000000.png",
     "tokenIdRange": [39000000, 39000699],
-    "animationUrl": "https://generator.artblocks.io/39000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/39"
   },
   "dynamic-slices": {
@@ -1054,9 +1054,9 @@
     "name": "Dynamic Slices",
     "description": "An on-chain experiment with interactive abstract art.",
     "artist": "pxlq",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/4000000.png",
     "tokenIdRange": [4000000, 4000511],
-    "animationUrl": "https://generator.artblocks.io/4000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/4"
   },
   "algobots": {
@@ -1064,9 +1064,9 @@
     "name": "Algobots",
     "description": "These cute companions live 100% on-chain where their bytes are cleverly stored in a scalable vector format. Built with quality components and complex algorithms, each Algobot is issued with a unique serial number and a NIFTY license which permits them to help out on any commercial projects where you might require their assistance.",
     "artist": "Stina Jones",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/40000000.png",
     "tokenIdRange": [40000000, 40000499],
-    "animationUrl": "https://generator.artblocks.io/40000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/40"
   },
   "elementals": {
@@ -1074,9 +1074,9 @@
     "name": "Elementals",
     "description": "Elementals is inspired by physical printmaking techniques and early Bauhaus principles. It starts with a few basic coloured shapes and arranges them in varying frequencies, sizes, and positions based on a unique transaction hash. Multiple overlaid variable grids allow for myriad layouts and opportunities for colour interaction. The goal is to create pieces that feel both intentional in composition and part of the same family.",
     "artist": "Michael Connolly",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/41000000.png",
     "tokenIdRange": [41000000, 41000599],
-    "animationUrl": "https://generator.artblocks.io/41000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/41"
   },
   "void": {
@@ -1084,9 +1084,9 @@
     "name": "Void",
     "description": "What lies between everything else? A reflexion on scale, shapes, the infinitely small and the infinitely big.",
     "artist": "Alexis André",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/42000000.png",
     "tokenIdRange": [42000000, 42000499],
-    "animationUrl": "https://generator.artblocks.io/42000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/42"
   },
   "origami-dream": {
@@ -1094,9 +1094,9 @@
     "name": "Origami Dream",
     "description": "'Origami Dreams' represents me in a very intimate way. It is the product of doing generative artwork for years, experimenting in the intersection between movement, poetry and mathematics. Each piece is determined by a random seed. There are two possible states in the artwork, one static and one dynamic. You can switch between the two states with a mouse click. The prime number 13 guides all of the artwork. You will get one of 13 different characters, and each 'Origami' is defined by 13 random points. There are also two layers of 'stars', completely random in color and position. The possibilities are infinite, and every mint is a different outcome.",
     "artist": "k0ch",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/43000000.png",
     "tokenIdRange": [43000000, 43000222],
-    "animationUrl": "https://generator.artblocks.io/43000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/43"
   },
   "cryptogodking": {
@@ -1104,9 +1104,9 @@
     "name": "CryptoGodKing",
     "description": "All Hail CryptoGodKing, whose Holy Spirit is opaque to the human eye. While CryptoGodKing itself cannot be owned, each unique incarnation may belong to a cryptographic soul of the Ethereal realm. When viewed through the material lens of a web browser, worshipers may glimpse its essence. Those who retain faith shall be led by an invisible hand towards a higher plane of wealth whereupon their karmic assets shall yield tremendous spiritual interest. Press space to hear the voice of CryptoGodKing.",
     "artist": "Steve Pikelny",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/44000000.png",
     "tokenIdRange": [44000000, 44000179],
-    "animationUrl": "https://generator.artblocks.io/44000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/44"
   },
   "gravity-grid": {
@@ -1114,9 +1114,9 @@
     "name": "Gravity Grid",
     "description": "Gravity Grid is heavily inspired by Go, a 2,500 year old board game. The game of Go is played on a 19x19 grid, which is how every Gravity Grid invocation begins. A psychedelic \"gameboard\" is drawn and pulled apart by gravity, as if slowly orbiting a black hole in space. Each Gravity Grid starts at a different stage of this process. Don't forget to click and hold - you *might* find an additional effect.",
     "artist": "Eliya Stein",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/45000000.png",
     "tokenIdRange": [45000000, 45000080],
-    "animationUrl": "https://generator.artblocks.io/45000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/45"
   },
   "70s-pop-series-one": {
@@ -1124,9 +1124,9 @@
     "name": "70s Pop Series One",
     "description": "Leaning into a retro 70s groove, the perfect art for your space-pad. The input is simple, just two tiles, but how they're rotated and placed, that's the magic.",
     "artist": "Daniel Catt",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/46000000.png",
     "tokenIdRange": [46000000, 46000255],
-    "animationUrl": "https://generator.artblocks.io/46000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/46"
   },
   "asterisms": {
@@ -1134,9 +1134,9 @@
     "name": "Asterisms",
     "description": "An asterism is a pattern created by a collection of stars and the lines that mentally connect between them. Unlike constellations, they are a more general concept that can refer to any identified pattern of stars. The viewer is the one who draws in the sky and gives meaning to his creation. Asterisms in an interactive generative project that invites you to draw, name and save forever your own asterism. Through a generative algorithm, the script gives you the sky as a canvas where you can unfold your imagination as many times as you want based on the Token ID hash from the minting process. To be a user is to be a creator. LEFT CLICK to create stars │ Use the MOUSE WHEEL to zoom in and out │ TYPE to write a title │ BACKSPACE to delete │ DELETE to delete all the text │ ENTER to save the file.",
     "artist": "Falko",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/47000000.png",
     "tokenIdRange": [47000000, 47000099],
-    "animationUrl": "https://generator.artblocks.io/47000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/47"
   },
   "gen-3": {
@@ -1144,9 +1144,9 @@
     "name": "Gen 3",
     "description": "Gen 3, the third and final installment of the Gen-Trilogy series, uses word combinations to create unexpected phrases. The phrases play with meaning, or the idea of it,  while characterizing identities relating to blockchain and NFT culture in a fun and abstract way. Gen 3 continues an emerging trend of parsing the minted token's hash in order to produce a deterministic image or animation. For each Gen 3 minted, 40% of the proceeds are donated to a non-profit organization called EveryShelter whose mission is to repurpose waste products into useful materials designed to help people in need. More information can be found at https",
     "artist": "DCA",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/48000000.png",
     "tokenIdRange": [48000000, 48001023],
-    "animationUrl": "https://generator.artblocks.io/48000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/48"
   },
   "dear-hash,": {
@@ -1154,9 +1154,9 @@
     "name": "Dear Hash,",
     "description": "A love letter to the beautiful hash behind the art. ⭑･ﾟﾟ･*",
     "artist": "MODNAR WOLF",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/49000000.png",
     "tokenIdRange": [49000000, 49000364],
-    "animationUrl": "https://generator.artblocks.io/49000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/49"
   },
   "variant-plan": {
@@ -1164,9 +1164,9 @@
     "name": "Variant Plan",
     "description": "Variant Plan (F01Y20) is an exclusive generative art commission for Variant Fund by Jeff Davis. Each work in the series contains a randomized hash string that determines a unique layout and color placement for the plan. Every plan is unique and all logic for the artwork is stored immutably on the Ethereum blockchain.",
     "artist": "Jeff Davis",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/5000000.png",
     "tokenIdRange": [5000000, 5000199],
-    "animationUrl": "https://generator.artblocks.io/5000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/5"
   },
   "the-opera": {
@@ -1174,9 +1174,9 @@
     "name": "The Opera",
     "description": "On a cosmic stage, these actors sing an infinite song. What do they reach for? Who are they searching for? Do their faces show wonder—or sadness? Sometimes they sing for themselves, sometimes they sing for the crowd, and sometimes they sing for the void. Like us. (25% to environmental charities)",
     "artist": "Luke Shannon",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/50000000.png",
     "tokenIdRange": [50000000, 50000255],
-    "animationUrl": "https://generator.artblocks.io/50000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/50"
   },
   "stipple-sunsets": {
@@ -1184,9 +1184,9 @@
     "name": "Stipple Sunsets",
     "description": "Beachy dreamscape vibes. 50% of the minting sales proceeds for Stipple Sunsets were directly sent to GiveDirectly, a non-profit that sends money directly to the worlds poorest and most in need–50% of subsequent artist royalties will be be donated to charities in the Rocky Mountain region.",
     "artist": "Jake Rockland",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/51000000.png",
     "tokenIdRange": [51000000, 51000359],
-    "animationUrl": "https://generator.artblocks.io/51000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/51"
   },
   "star-flower": {
@@ -1194,9 +1194,9 @@
     "name": "Star Flower",
     "description": "This algorithm features a generative pattern created after subtracting two small numbers using the sum to place circles. All colors, positions, and color patterns are based off Ethereum blockchain data.",
     "artist": "Ruben Alexander",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/52000000.png",
     "tokenIdRange": [52000000, 52000999],
-    "animationUrl": "https://generator.artblocks.io/52000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/52"
   },
   "subscapes": {
@@ -1204,9 +1204,9 @@
     "name": "Subscapes",
     "description": "A generative algorithm that draws the impression of a landscape from a multitude of possibilities. The unique seed from each token drives the parametric assortment of lines, colors, and forms into a constructed composition.",
     "artist": "Matt DesLauriers",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/53000000.png",
     "tokenIdRange": [53000000, 53000649],
-    "animationUrl": "https://generator.artblocks.io/53000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/53"
   },
   "p": {
@@ -1214,9 +1214,9 @@
     "name": "P",
     "description": "Six simple objects. Three rectangles and three circles. Complexity through simplicity. Chaos to form and back again. The animations designed as art, sit back and enjoy the movements. \nYou can pause the animation by clicking on the image",
     "artist": "mightymoose",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/54000000.png",
     "tokenIdRange": [54000000, 54000383],
-    "animationUrl": "https://generator.artblocks.io/54000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/54"
   },
   "talking-blocks": {
@@ -1224,9 +1224,9 @@
     "name": "Talking Blocks",
     "description": "Talking Blocks listens to the Blockchain hash # and creates a unique artwork with a signature stamped into the image that is a direct message from the blockchain. This provides the collector an assurance of authenticity while leveraging the blockchain to generate a unique message, a retina print of the blockchain hash #. This is an instantly recognizable visual signature. You can interact with the artwork to modulate a sonic reaction of oscillating circular waves. The permanent immutability of the underlying token hash # is combined with a non-repeatable signature from a person interacting with the artwork, all in real-time. In other words, you can have a conversation with the Blockchain.",
     "artist": "REMO x DCsan",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/55000000.png",
     "tokenIdRange": [55000000, 55000511],
-    "animationUrl": "https://generator.artblocks.io/55000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/55"
   },
   "aurora-iv": {
@@ -1234,9 +1234,9 @@
     "name": "Aurora IV",
     "description": "So many worlds to wander through until we find one we can call our home.",
     "artist": "ge1doot",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/56000000.png",
     "tokenIdRange": [56000000, 56000127],
-    "animationUrl": "https://generator.artblocks.io/56000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/56"
   },
   "rhythm": {
@@ -1244,9 +1244,9 @@
     "name": "Rhythm",
     "description": "\"The rhythm of a design is characterized by the placement of its elements and the direction and speed of their visual movement.\" -Foundations of Design // 50% of artist proceeds from minting will be donated to No Kid Hungry.",
     "artist": "Jeff Davis",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/57000000.png",
     "tokenIdRange": [57000000, 57000333],
-    "animationUrl": "https://generator.artblocks.io/57000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/57"
   },
   "color-magic-planets": {
@@ -1254,9 +1254,9 @@
     "name": "Color Magic Planets",
     "description": "Inspired by the shapes and colors of childhood and the exploration of planets, where translucent vinyl shapes overlay to create new colors to spark the imagination. Using the token code the location of shapes and colors are generated. Watch out for the Entity in their latent spacecraft. Based on an original artwork by Liza Grace \"Colorform Multiverse\"",
     "artist": "Bård Ionson",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/58000000.png",
     "tokenIdRange": [58000000, 58000255],
-    "animationUrl": "https://generator.artblocks.io/58000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/58"
   },
   "watercolor-dreams": {
@@ -1264,9 +1264,9 @@
     "name": "Watercolor Dreams",
     "description": "Watercolor Dreams is an exploration in simulation, a meditation on traditional techniques in watercolor, and an ode to serendipity. Where will this curve end? When will this shade fade? How will the movement come alive? Sit back, relax, and watch the colors wash over the canvas.",
     "artist": "NumbersInMotion",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/59000000.png",
     "tokenIdRange": [59000000, 59000599],
-    "animationUrl": "https://generator.artblocks.io/59000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/59"
   },
   "view-card": {
@@ -1274,9 +1274,9 @@
     "name": "View Card",
     "description": "View Cards are generative abstractions of high-rise buildings. Based on the programmable artwork View Program, each View Card contains a randomized seed that selects one of 9 different window patterns, 4 different atmospheric conditions, and an overall color scheme based on 4 different reflections. Click on the Live View of the artwork to display your settings!",
     "artist": "Jeff Davis",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/6000000.png",
     "tokenIdRange": [6000000, 6000040],
-    "animationUrl": "https://generator.artblocks.io/6000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/6"
   },
   "event-horizon-sunset-(series-c)": {
@@ -1284,9 +1284,9 @@
     "name": "Event Horizon Sunset (Series C)",
     "description": "Event Horizon Sunsets are a class of art works generated through an algorithm which uses Perlin noise to modulate the color, shape, and convexity of a continuous surface. The sunsets are generated instantly in a practical infinity of combinations, and it is possible to write a machine learning classifier that selects the most beautiful ones. Event Horizon Sunset (Series C) follows two previous series of Sunsets, with 5 and 9 works respectively. Series C is special because some of the randomly generated Sunsets have a \"close proximity\".",
     "artist": "Jake Brukhman",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/60000000.png",
     "tokenIdRange": [60000000, 60000499],
-    "animationUrl": "https://generator.artblocks.io/60000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/60"
   },
   "70s-pop-super-fun-summertime-bonus-pack-🍸": {
@@ -1294,9 +1294,9 @@
     "name": "70s Pop Super Fun Summertime Bonus Pack 🍸",
     "description": "No special features, just sun-bleached curves in white set on four fresh summer palettes; Miami, Florida, New Orleans, Los Angeles and gradients for days. See the website ☝️ for more details. All Ξ from primary sales will be going to the Women Who Code non-profit organisation.",
     "artist": "Daniel Catt",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/61000000.png",
     "tokenIdRange": [61000000, 61000063],
-    "animationUrl": "https://generator.artblocks.io/61000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/61"
   },
   "bubble-blobby": {
@@ -1304,9 +1304,9 @@
     "name": "Bubble Blobby",
     "description": "Translucent color bubbles playfully mix and morph to create organic and ephemeral blobby forms. [Shortcuts] spacebar",
     "artist": "Jason Ting",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/62000000.png",
     "tokenIdRange": [62000000, 62000499],
-    "animationUrl": "https://generator.artblocks.io/62000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/62"
   },
   "ode-to-roy": {
@@ -1314,9 +1314,9 @@
     "name": "Ode to Roy",
     "description": "An ode to Roy Lichtenstein, incorporating his iconic version of Ben-Day dots, halftone dots, angled stripes, and solid color patches. Inspired by Roy's sea and landscape paintings, each artwork generates a unique combination of patterns, shapes, and colors.",
     "artist": "artplusbrad",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/63000000.png",
     "tokenIdRange": [63000000, 63000905],
-    "animationUrl": "https://generator.artblocks.io/63000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/63"
   },
   "algorhythms": {
@@ -1324,9 +1324,9 @@
     "name": "AlgoRhythms",
     "description": "AlgoRhythms is a collection of generative audio-visual data sculptures. Each unique hash drives the combination of colors, patterns and musical scales into a music box.",
     "artist": "Han x Nicolas Daniel",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/64000000.png",
     "tokenIdRange": [64000000, 64000999],
-    "animationUrl": "https://generator.artblocks.io/64000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/64"
   },
   "traversals": {
@@ -1334,9 +1334,9 @@
     "name": "Traversals",
     "description": "This series explores color in layered intersections. The unique hash determines the procedure of each traversal; endpoints, divergences, elevations, and color immersion. Left click or press any key for coruscation.",
     "artist": "Loren Bednar",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/65000000.png",
     "tokenIdRange": [65000000, 65000149],
-    "animationUrl": "https://generator.artblocks.io/65000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/65"
   },
   "patchwork-saguaros": {
@@ -1344,9 +1344,9 @@
     "name": "Patchwork Saguaros",
     "description": "Quilted landscapes in homage to the desert. 51% of the minting sales proceeds from Patchwork Saguaros will be donated to the Nancy Rockland-Miller Scholarship fund, held by The Kent State University Foundation. To learn more, please check out my introduction blog post for the project",
     "artist": "Jake Rockland",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/66000000.png",
     "tokenIdRange": [66000000, 66000071],
-    "animationUrl": "https://generator.artblocks.io/66000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/66"
   },
   "petri": {
@@ -1354,9 +1354,9 @@
     "name": "Petri",
     "description": "Petri is a home, a place of initiation for the long journey. The evolving organisms form a zen movement unique to each version. The movement is an unending, non-repeating flow in the petri. Watch and be mesmerised as the organism evolves uniquely and infinitely.",
     "artist": "Fabin Rasheed",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/67000000.png",
     "tokenIdRange": [67000000, 67000199],
-    "animationUrl": "https://generator.artblocks.io/67000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/67"
   },
   "messengers": {
@@ -1364,9 +1364,9 @@
     "name": "Messengers",
     "description": "Those structures suddenly appeared, yet they don't talk to us. Yet.",
     "artist": "Alexis André",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/68000000.png",
     "tokenIdRange": [68000000, 68000349],
-    "animationUrl": "https://generator.artblocks.io/68000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/68"
   },
   "abstraction": {
@@ -1374,9 +1374,9 @@
     "name": "Abstraction",
     "description": "Abstraction is a complex abstract artwork created in several stages where each new element drawn takes into account the elements drawn in the previous stages.",
     "artist": "Hevey",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/69000000.png",
     "tokenIdRange": [69000000, 69000255],
-    "animationUrl": "https://generator.artblocks.io/69000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/69"
   },
   "elevated-deconstructions": {
@@ -1384,9 +1384,9 @@
     "name": "Elevated Deconstructions",
     "description": "A study in reduction based around several repeating elements. A unique hash string seeded within each token informs the composition of the work. Variables include the color of the background, the amount of times each of the elements are duplicated, the set distance between each duplicate, and the coordinates of each element. Each token is unique.",
     "artist": "luxpris",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/7000000.png",
     "tokenIdRange": [7000000, 7000199],
-    "animationUrl": "https://generator.artblocks.io/7000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/7"
   },
   "antennas": {
@@ -1394,9 +1394,9 @@
     "name": "Antennas",
     "description": "Our brains are well adapted to organize visual data in the form of previously recognized patterns. This means we usually have a very hard time just accepting pure abstraction. In the structures found in “Antennas”, this phenomenon not only resides in the eye of the spectator, but it also informs the creative process behind them. In the procedure that gives shape to these layers of simple overlapping geometry, I look to let intuition find ground in the known figurative world, in shapes we recognize and give ease to our cognition, working with code in a playful back and forth in order to find a balance between complexity and meaning.",
     "artist": "gcrll",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/70000000.png",
     "tokenIdRange": [70000000, 70000249],
-    "animationUrl": "https://generator.artblocks.io/70000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/70"
   },
   "andradite": {
@@ -1404,9 +1404,9 @@
     "name": "Andradite",
     "description": "Andradite comes from the transposition of my Modo7 protocol into sculptures. Heavy brutalist shapes that come together to create dark monolithic structures half way between sculpted objects and troglodytic architecture. The name of the script comes from the andradite, a stone which crystallizes following cubic patterns and can be found in deep dark color. The gradient backgrounds create depth and mood and recall the way they showcase the stones in professional mineral photographs.",
     "artist": "Eltono",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/71000000.png",
     "tokenIdRange": [71000000, 71000221],
-    "animationUrl": "https://generator.artblocks.io/71000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/71"
   },
   "frammenti": {
@@ -1414,9 +1414,9 @@
     "name": "Frammenti",
     "description": "Memories define us. Made of countless fragments, they are an ever-changing snapshot of our past. Frammenti is a digital explosion of life, inspired by our most personal treasures.",
     "artist": "Stefano Contiero",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/72000000.png",
     "tokenIdRange": [72000000, 72000554],
-    "animationUrl": "https://generator.artblocks.io/72000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/72"
   },
   "catblocks": {
@@ -1424,9 +1424,9 @@
     "name": "CatBlocks",
     "description": "Adorable and purrfect, these carefully bred kitties express a wide range of emotions and personalities. They live entirely on-chain and they just love receiving pets.",
     "artist": "Kristy Glas",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/73000000.png",
     "tokenIdRange": [73000000, 73000511],
-    "animationUrl": "https://generator.artblocks.io/73000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/73"
   },
   "the-blocks-of-art": {
@@ -1434,9 +1434,9 @@
     "name": "The Blocks of Art",
     "description": "This project is dedicated to Art Blocks. Each panel on the block is a small generative art piece with several random parameters that lives its own life, at the same time being part of the composition. This symbolizes generative artists united by the common idea of ArtBlocks. Each art contains one letter of the words ART BLOCKS. A collector who possesses all nine letters becomes a member of The Blocks of Art Club and receives the opportunity to do a free mint of Shvembldr's projects on Artblocks Playground before the official release for a year, as well as other bonuses and perks",
     "artist": "Shvembldr",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/74000000.png",
     "tokenIdRange": [74000000, 74000499],
-    "animationUrl": "https://generator.artblocks.io/74000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/74"
   },
   "breathe-you": {
@@ -1444,9 +1444,9 @@
     "name": "Breathe You",
     "description": "Breathe You is an interpretation of the bond of love with another being, an unbroken circle full of light and color, together, still or spinning through this universe as time pushes forward with every shared breathe, in and out. Relax, stare, sync your breathing with the motion, become hypnotized and feel the love. This is the first work on Art Blocks to use only HTML, CSS, and JavaScript. Chase Mints",
     "artist": "raregonzo",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/75000000.png",
     "tokenIdRange": [75000000, 75000255],
-    "animationUrl": "https://generator.artblocks.io/75000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/75"
   },
   "dino-pals": {
@@ -1454,9 +1454,9 @@
     "name": "dino pals",
     "description": "Adorable prehistoric pets generated in a pseudo 3d space using vector graphics.\nExplore the different species, colors and personalities.",
     "artist": "hideo",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/76000000.png",
     "tokenIdRange": [76000000, 76000099],
-    "animationUrl": "https://generator.artblocks.io/76000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/76"
   },
   "return": {
@@ -1464,9 +1464,9 @@
     "name": "Return",
     "description": "\"Return\" is a meditation on returning inward, cyclical change, and the beauty of iteration. The composition of each piece slowly loops, providing a new experience for the viewer over time. Created by Aaron Penne",
     "artist": "Aaron Penne",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/77000000.png",
     "tokenIdRange": [77000000, 77000299],
-    "animationUrl": "https://generator.artblocks.io/77000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/77"
   },
   "fidenza": {
@@ -1474,9 +1474,9 @@
     "name": "Fidenza",
     "description": "Fidenza is by far my most versatile algorithm to date. Although the program stays focused on structured curves and blocks, the varieties of scale, organization, texture, and color usage it can employ create a wide array of generative possibilities.",
     "artist": "Tyler Hobbs",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/78000000.png",
     "tokenIdRange": [78000000, 78000998],
-    "animationUrl": "https://generator.artblocks.io/78000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/78"
   },
   "space-debris-[m'aider]": {
@@ -1484,9 +1484,9 @@
     "name": "Space Debris [m'aider]",
     "description": "L5-A752 to dispatch... we have been attacked, badly. Foundational structure is in critical condition, debris is everywhere. Lagrange stability has been compromised. Sending coordinates and trajectory... Requesting immediate gravity assist.",
     "artist": "WhaleStreet x pxlq",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/79000000.png",
     "tokenIdRange": [79000000, 79000092],
-    "animationUrl": "https://generator.artblocks.io/79000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/79"
   },
   "singularity": {
@@ -1494,9 +1494,9 @@
     "name": "Singularity",
     "description": "Every Singularity is unique. Each form’s properties; Symmetry, Chaos, Mass, Force and Turbulence are driven by data extracted from the transaction hash.",
     "artist": "Hideki Tsukamoto",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/8000000.png",
     "tokenIdRange": [8000000, 8001023],
-    "animationUrl": "https://generator.artblocks.io/8000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/8"
   },
   "space-debris-[warning]": {
@@ -1504,9 +1504,9 @@
     "name": "Space Debris [warning]",
     "description": "L5-A752 to dispatch... we have been attacked, badly. Foundational structure is in critical condition, debris is everywhere. Lagrange stability has been compromised. Sending coordinates and trajectory... Requesting immediate gravity assist.",
     "artist": "WhaleStreet x pxlq",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/80000000.png",
     "tokenIdRange": [80000000, 80000080],
-    "animationUrl": "https://generator.artblocks.io/80000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/80"
   },
   "space-debris-[ravaged]": {
@@ -1514,9 +1514,9 @@
     "name": "Space Debris [ravaged]",
     "description": "L5-A752 to dispatch... we have been attacked, badly. Foundational structure is in critical condition, debris is everywhere. Lagrange stability has been compromised. Sending coordinates and trajectory... Requesting immediate gravity assist.",
     "artist": "WhaleStreet x pxlq",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/81000000.png",
     "tokenIdRange": [81000000, 81000031],
-    "animationUrl": "https://generator.artblocks.io/81000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/81"
   },
   "incantation": {
@@ -1524,9 +1524,9 @@
     "name": "Incantation",
     "description": "Ancient runes deterministically arranged and animated in order to create mysterious magic spells.",
     "artist": "Eliya Stein",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/82000000.png",
     "tokenIdRange": [82000000, 82000084],
-    "animationUrl": "https://generator.artblocks.io/82000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/82"
   },
   "panelscape-🅰🅱": {
@@ -1534,9 +1534,9 @@
     "name": "Panelscape 🅰🅱",
     "description": "Imagine a multidimensional and multitemporal space outside of reality, perhaps at the end of a black hole. Try to represent it with a code that transforms it into the changing variability of life, which encompasses all the nuances of human experience. This is Panelscape 🅰🅱, a composition that changes in the alpha values of the panels. Try to find your space, the representation of reality that best suits you.",
     "artist": "Paolo Tonon",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/83000000.png",
     "tokenIdRange": [83000000, 83000524],
-    "animationUrl": "https://generator.artblocks.io/83000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/83"
   },
   "primidance": {
@@ -1544,9 +1544,9 @@
     "name": "PrimiDance",
     "description": "Dance of the primitive shapes - demonstrating my fascination and love of the basic building blocks for many types of computer generated imagery. \nIncorporating random chance with some strict design decisions, numerous sub variations and collectable series can be generated. \nControls",
     "artist": "wuwa",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/84000000.png",
     "tokenIdRange": [84000000, 84000255],
-    "animationUrl": "https://generator.artblocks.io/84000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/84"
   },
   "70s-pop-series-two": {
@@ -1554,9 +1554,9 @@
     "name": "70s Pop Series Two",
     "description": "Series Two of the popular 70s Pop. Here we're cruising down Lake Shore Drive in our shag carpet lined Chevy van, with sweet custom airbrushed art on the side. Barbarella meets Saturday Night Fever 🌈🕺 in tiny code form.",
     "artist": "Daniel Catt",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/85000000.png",
     "tokenIdRange": [85000000, 85000255],
-    "animationUrl": "https://generator.artblocks.io/85000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/85"
   },
   "stroming": {
@@ -1564,9 +1564,9 @@
     "name": "Stroming",
     "description": "Stroming is a generative abstract project that wraps colorful streams around bold geometric shapes. The transaction hash is used to assign unique attributes to each Stroming, such as scene selection, colorscheme, intensity, modifiers and more.",
     "artist": "Bart Simons",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/86000000.png",
     "tokenIdRange": [86000000, 86000255],
-    "animationUrl": "https://generator.artblocks.io/86000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/86"
   },
   "patterns-of-life": {
@@ -1574,9 +1574,9 @@
     "name": "Patterns of Life",
     "description": "Geometric patterns discovered when playing with colors at Cellular Automaton. It reminds geometric patterns from the old paintings or patterns that were generated by weaving machines.",
     "artist": "Vamoss",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/87000000.png",
     "tokenIdRange": [87000000, 87000511],
-    "animationUrl": "https://generator.artblocks.io/87000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/87"
   },
   "orthogone": {
@@ -1584,9 +1584,9 @@
     "name": "Orthogone",
     "description": "'Orthogone' is a succession of main colored rectangles, echoed with white - sometimes black - rectangles. You may guess buildings or squared ricochets, and sense the underlying rhythm.",
     "artist": "Pandelune",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/88000000.png",
     "tokenIdRange": [88000000, 88000776],
-    "animationUrl": "https://generator.artblocks.io/88000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/88"
   },
   "dreams": {
@@ -1594,9 +1594,9 @@
     "name": "Dreams",
     "description": "Dreams is an exploration of uneven subdivision. It focuses on the interaction between uniform and crooked lines, and the complex structures that can emerge from simple rules. Each iteration of Dreams is unique, with characteristics determined by the hash created at the moment of transaction. Created by Joshua Bagley",
     "artist": "Joshua Bagley",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/89000000.png",
     "tokenIdRange": [89000000, 89000699],
-    "animationUrl": "https://generator.artblocks.io/89000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/89"
   },
   "ignition": {
@@ -1604,9 +1604,9 @@
     "name": "Ignition",
     "description": "Launched into crypto-space for the first time, I present my genesis project, a limited series of interactive 3D structures, rotating endlessly from their self-gravitational force. Each token minted is the result of a complex set of rules, an algorithm that processes the transaction hash and generates a unique piece of crypto-art. Purely written in JavaScript, using no external libraries or dependencies of any sort, these voyagers will forever be the testimony of hardcoded workmanship, a heritage of the old times. Deep space, do you copy?",
     "artist": "ge1doot",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/9000000.png",
     "tokenIdRange": [9000000, 9000511],
-    "animationUrl": "https://generator.artblocks.io/9000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/9"
   },
   "hashtractors": {
@@ -1614,9 +1614,9 @@
     "name": "Hashtractors",
     "description": "Hashtractors are a collection of generative renderings of various parametric equations commonly know as \"strange attractors\". These equations are at the heart of chaos theory; a branch of mathematics focused on the study of dynamical systems that are highly sensitive to initial conditions. A selection of 29 different equations has been made for this collection. Hash data is used as their parameters.",
     "artist": "Darien Brito",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/90000000.png",
     "tokenIdRange": [90000000, 90000127],
-    "animationUrl": "https://generator.artblocks.io/90000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/90"
   },
   "planets": {
@@ -1624,9 +1624,9 @@
     "name": "planets",
     "description": "A minimal and geometric interpretation of a planetary system.",
     "artist": "donnoh",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/91000000.png",
     "tokenIdRange": [91000000, 91000511],
-    "animationUrl": "https://generator.artblocks.io/91000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/91"
   },
   "libertad-parametrizada": {
@@ -1634,9 +1634,9 @@
     "name": "Libertad Parametrizada",
     "description": "Leaving a room doesn't free you, it only shifts you to a newly constrained space. Your freedom is bound by parameters. This is Parametric Freedom. Use arrows to control wind and gravity and space bar to stop animation. Type M or L to increase or decrease density. Would you like a PNG?  Just hit S.",
     "artist": "zJorge",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/92000000.png",
     "tokenIdRange": [92000000, 92000242],
-    "animationUrl": "https://generator.artblocks.io/92000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/92"
   },
   "sigils": {
@@ -1644,9 +1644,9 @@
     "name": "Sigils",
     "description": "Computational sigils for a digital altar. Patterns emerging from the vibrations of sound waves, seen but not heard.",
     "artist": "espina",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/93000000.png",
     "tokenIdRange": [93000000, 93000132],
-    "animationUrl": "https://generator.artblocks.io/93000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/93"
   },
   "portal": {
@@ -1654,9 +1654,9 @@
     "name": "Portal",
     "description": "Generative light and space",
     "artist": "Jeff Davis",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/94000000.png",
     "tokenIdRange": [94000000, 94000009],
-    "animationUrl": "https://generator.artblocks.io/94000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/94"
   },
   "cryptovenetian": {
@@ -1664,9 +1664,9 @@
     "name": "CryptoVenetian",
     "description": "CryptoVenetians are a limited release algorithmically generated pixel art collection based on real characters from Venice, CA. Available only to visitors of the Bright Moments physical NFT gallery, CryptoVenetians grant holders exclusive access to IRL events and experiences in Los Angeles. With over 200,000 possible combinations, CryptoVenetians represent the diversity of Venice Beach.",
     "artist": "Bright Moments",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/95000000.png",
     "tokenIdRange": [95000000, 95000999],
-    "animationUrl": "https://generator.artblocks.io/95000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/95"
   },
   "gravity-12": {
@@ -1674,9 +1674,9 @@
     "name": "Gravity 12",
     "description": "GRAVITY 12 is an exploration of the connection between math, art and nature. A network of nodes creates a gravitational field through which energy flows.",
     "artist": "Jimmy Herdberg",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/96000000.png",
     "tokenIdRange": [96000000, 96000511],
-    "animationUrl": "https://generator.artblocks.io/96000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/96"
   },
   "[dis]entanglement": {
@@ -1684,9 +1684,9 @@
     "name": "[Dis]entanglement",
     "description": "Informed by the experience of separating after a long marriage, (Dis)entanglement explores the endless ways that relationships intertwine. Each unique generative image represents one of many possible moments across the arc of a relationship, from a couple eagerly pulling taut their new connection, to a union defined solely by knots hardened over time. Whether connecting threads are carefully untied, crumbling from neglect, or snapping from tension, many couples can still safely go separate ways when needed. For some, there is no easy escape. Domestic violence, sexual abuse, financial hardship, and cultural norms can all keep someone bound to a partner against their will. To help those in need, 10% of artist proceeds from each sale will be donated to InterAct of Wake County, a private, nonprofit agency that provides safety, support, and awareness to victims and survivors of domestic violence and rape/sexual assault. InterAct is recognized as a tax-exempt, 501 (c)(3) charity by the U.S. Internal Revenue Service (EIN",
     "artist": "onlygenerated",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/97000000.png",
     "tokenIdRange": [97000000, 97000729],
-    "animationUrl": "https://generator.artblocks.io/97000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/97"
   },
   "sail-o-bots": {
@@ -1694,9 +1694,9 @@
     "name": "sail-o-bots",
     "description": "Sail-o-bots try to combine but also spare concepts, perceptions and even basic human need based on Maslow's hierarchy. They are the mischief of the sea, have their own tiny boats to sail but they prefer to stand still, and watch the sunset. Until the next day comes, Sail-o-bots wait, they do not eat, they do not sleep, that's why they are on edge from time to time. Do not judge them quickly. Each bot has its own messages if you want to take or they are just shiny stuff you can stare at. Sail-o-bots cannot stay at a same style, that is who they are, they might be called inconsistent, but it has advantages, having multiple disciplines is really important for them, they will never stop trying to discover more. They will always be going back and forward around several versions, do not think that they will stop at one since they discover themselves, which is probably never.\n\nsail-o-bots is based on the original generative project Strange Robots by Che-Yu Wu (https",
     "artist": "undefined",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/98000000.png",
     "tokenIdRange": [98000000, 98000749],
-    "animationUrl": "https://generator.artblocks.io/98000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/98"
   },
   "spaghettification": {
@@ -1704,9 +1704,9 @@
     "name": "Spaghettification",
     "description": "Representing the ebb and flow of energy in a universe heading towards inevitable entropy.",
     "artist": "Owen Moore",
-    "imageUrl": "https://d2ekshiy7r5vl7.cloudfront.net/99000000.png",
     "tokenIdRange": [99000000, 99001023],
-    "animationUrl": "https://generator.artblocks.io/99000000",
+    "baseTokenUrl": "https://d2ekshiy7r5vl7.cloudfront.net/",
+    "baseAnimationUrl": "https://generator.artblocks.io/",
     "externalUrl": "https://artblocks.io/project/99"
   }
 }

@@ -14,9 +14,11 @@ const main = async () => {
       const slug = info.name.toLowerCase().split(" ").join("-");
       infos[slug] = {
         ...info,
-        animationUrl: `https://generator.artblocks.io/${info.tokenIdRange[0]}`,
+        baseTokenUrl: "https://d2ekshiy7r5vl7.cloudfront.net/",
+        baseAnimationUrl: "https://generator.artblocks.io/",
         externalUrl: `https://artblocks.io/project/${projectId}`,
       };
+      delete infos[slug].imageUrl;
     }
   }
 

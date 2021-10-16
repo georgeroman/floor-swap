@@ -1,45 +1,45 @@
 import type { NextPage } from "next";
-import { useState } from "react";
+import Link from "next/link";
 
-import Buy from "../components/Buy";
-import Sell from "../components/Sell";
-import { classNames } from "../src/css";
+import { getAllCollections } from "../src/collection";
 
 const IndexPage: NextPage = () => {
-  const [currentTab, setCurrentTab] = useState<string>("buy");
-
   return (
-    <div className="md:m-5 flex flex-col justify-center">
-      <nav className="mb-5 flex justify-center space-x-4">
-        <a
-          href="#"
-          className={classNames(
-            currentTab === "buy"
-              ? "bg-gray-100"
-              : "text-gray-500 hover:text-black",
-            "px-3 py-2 font-medium text-sm rounded-md"
-          )}
-          onClick={() => setCurrentTab("buy")}
+    <ul
+      role="list"
+      className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+    >
+      {Object.entries(getAllCollections()).map(([slug, collection]) => (
+        <li
+          key={collection.name}
+          className="col-span-1 flex flex-col text-center bg-white rounded-lg border divide-y divide-gray-700 hover:shadow-md"
         >
-          Buy
-        </a>
+          <Link href={`/collections/${slug}`} passHref>
+            <a>
+              <div className="flex-1 flex flex-col p-8">
+                <img
+                  className="w-36 h-36 mx-auto object-scale-down"
+                  src={`${collection.baseImageUrl}/${collection.tokenIdRange[0]}.png`}
+                />
 
-        <a
-          href="#"
-          className={classNames(
-            currentTab === "sell"
-              ? "bg-gray-100"
-              : "text-gray-500 hover:text-black",
-            "px-3 py-2 font-medium text-sm rounded-md"
-          )}
-          onClick={() => setCurrentTab("sell")}
-        >
-          Sell
-        </a>
-      </nav>
+                <h3 className="mt-6 mx-auto text-sm font-medium">
+                  <a
+                    className="hover:text-gray-600"
+                    href={collection.externalUrl}
+                  >
+                    {collection.name}
+                  </a>
+                </h3>
 
-      <div>{currentTab === "buy" ? <Buy /> : <Sell />}</div>
-    </div>
+                {collection.artist && (
+                  <p className="text-xs">by {collection.artist}</p>
+                )}
+              </div>
+            </a>
+          </Link>
+        </li>
+      ))}
+    </ul>
   );
 };
 
