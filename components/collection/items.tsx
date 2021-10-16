@@ -19,8 +19,8 @@ const CollectionItems = ({ collection }: Props) => {
   return (
     <>
       <Modal
-        open={open}
-        setOpen={setOpen}
+        toggled={open}
+        setToggled={setOpen}
         children={
           <div>
             <div className="h-96 mx-auto">
@@ -68,6 +68,7 @@ const CollectionItems = ({ collection }: Props) => {
                   className="w-36 h-36 flex-shrink-0 mx-auto object-scale-down"
                   src={`${collection.baseImageUrl}/${tokenId}.png`}
                 />
+
                 <h3 className="mt-6 text-sm font-medium mx-auto">
                   <span>#{getUserFriendlyTokenId(collection, tokenId)}</span>
                 </h3>

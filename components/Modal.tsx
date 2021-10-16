@@ -2,18 +2,18 @@ import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, ReactNode } from "react";
 
 type Props = {
-  open: boolean;
-  setOpen: (open: boolean) => void;
+  toggled: boolean;
+  setToggled: (open: boolean) => void;
   children: ReactNode;
 };
 
-const Modal = ({ open, setOpen, children }: Props) => {
+const Modal = ({ toggled, setToggled, children }: Props) => {
   return (
-    <Transition.Root show={open} as={Fragment}>
+    <Transition.Root show={toggled} as={Fragment}>
       <Dialog
         as="div"
         className="fixed z-10 inset-0 overflow-y-auto"
-        onClose={setOpen}
+        onClose={() => setToggled(false)}
       >
         <div className="flex items-end justify-center min-h-screen pt-4 pb-20 text-center sm:block sm:p-0">
           <Transition.Child
@@ -35,6 +35,7 @@ const Modal = ({ open, setOpen, children }: Props) => {
           >
             &#8203;
           </span>
+
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"

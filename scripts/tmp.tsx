@@ -7,11 +7,11 @@ import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import { useState } from "react";
 
-import Notification from "./components/Notification";
-import { buildRangeOrder } from "./src/0x/broker";
-import { signOrder } from "./src/0x/exchange";
-import collections from "./src/collection";
-import { ERC20_PROXY, WETH } from "./src/contracts";
+import Notification from "../components/Notification";
+import { buildRangeOrder } from "../src/0x/broker";
+import { signOrder } from "../src/0x/exchange";
+import collections from "../src/collection";
+import { ERC20_PROXY, WETH } from "../src/contracts";
 
 const BuyPage: NextPage = () => {
   const router = useRouter();
