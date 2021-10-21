@@ -3,18 +3,18 @@ import { XIcon } from "@heroicons/react/solid";
 import { Fragment, useEffect, useRef } from "react";
 
 type Props = {
+  toggled: boolean;
+  setToggled: (toggled: boolean) => void;
   message: string;
-  show: boolean;
-  setShow: (show: boolean) => void;
 };
 
-const Notification = ({ message, show, setShow }: Props) => {
+const Notification = ({ toggled, setToggled, message }: Props) => {
   const ref = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const checkIfClickedOutside = (event: any) => {
-      if (show && ref.current && !ref.current.contains(event.target)) {
-        setShow(false);
+      if (toggled && ref.current && !ref.current.contains(event.target)) {
+        setToggled(false);
       }
     };
 
@@ -22,7 +22,7 @@ const Notification = ({ message, show, setShow }: Props) => {
     return () => {
       document.removeEventListener("mousedown", checkIfClickedOutside);
     };
-  }, [show]);
+  }, [toggled]);
 
   return (
     <div
@@ -33,7 +33,7 @@ const Notification = ({ message, show, setShow }: Props) => {
       <div className="w-full flex flex-col items-center space-y-4 sm:items-end">
         {/* Notification panel, dynamically insert this into the live region when it needs to be displayed */}
         <Transition
-          show={show}
+          show={toggled}
           as={Fragment}
           enter="transform ease-out duration-300 transition"
           enterFrom="translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2"
@@ -50,11 +50,12 @@ const Notification = ({ message, show, setShow }: Props) => {
                     {message}
                   </p>
                 </div>
+
                 <div className="ml-4 flex-shrink-0 flex">
                   <button
                     className="bg-white rounded-md inline-flex text-gray-400 hover:text-gray-500 border-0"
                     onClick={() => {
-                      setShow(false);
+                      setToggled(false);
                     }}
                   >
                     <XIcon className="h-5 w-5" />

@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
 import Link from "next/link";
+import LazyLoad from "react-lazyload";
 
-import { getAllCollections } from "../src/collection";
+import { getAllCollections } from "src/collections";
 
 const IndexPage: NextPage = () => {
   return (
@@ -17,10 +18,12 @@ const IndexPage: NextPage = () => {
           <Link href={`/collections/${slug}`} passHref>
             <a>
               <div className="flex-1 flex flex-col p-8">
-                <img
-                  className="w-36 h-36 mx-auto object-scale-down"
-                  src={`${collection.baseImageUrl}/${collection.tokenIdRange[0]}.png`}
-                />
+                <LazyLoad height="9rem">
+                  <img
+                    className="w-36 h-36 mx-auto object-scale-down"
+                    src={`${collection.baseImageUrl}/${collection.tokenIdRange[0]}.png`}
+                  />
+                </LazyLoad>
 
                 <h3 className="mt-6 mx-auto text-sm font-medium">
                   <a

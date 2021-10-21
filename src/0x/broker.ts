@@ -1,34 +1,32 @@
 import { defaultAbiCoder } from "@ethersproject/abi";
-import { BigNumberish } from "@ethersproject/bignumber";
 import { AddressZero } from "@ethersproject/constants";
 import { randomBytes } from "@ethersproject/random";
 
-import { BROKER, EXCHANGE, RANGE_PROPERTY_VALIDATOR, WETH } from "../contracts";
-import { bn, now } from "../utils";
 import {
   Order,
   encodeErc1155AssetData,
   encodeErc20AssetData,
-} from "./exchange";
+} from "src/0x/exchange";
+import { BROKER, RANGE_PROPERTY_VALIDATOR, WETH } from "src/contracts";
+import { bn } from "src/utils";
 
 export const buildRangeOrder = (
   maker: string,
   contract: string,
-  tokenIdRange: [BigNumberish, BigNumberish],
-  price: BigNumberish,
-  expiration: number
+  tokenIdRange: [string, string],
+  price: string,
+  expiration: string
 ) => {
   const order: Order = {
-    exchangeAddress: EXCHANGE.address,
     makerAddress: maker,
     takerAddress: AddressZero,
     feeRecipientAddress: AddressZero,
-    senderAddress: AddressZero,
+    senderAddress: BROKER.address,
     makerAssetAmount: price.toString(),
     takerAssetAmount: "1",
     makerFee: "0",
     takerFee: "0",
-    expirationTimeSeconds: (now() + expiration).toString(),
+    expirationTimeSeconds: expiration.toString(),
     salt: bn(randomBytes(32)).toString(),
     makerAssetData: encodeErc20AssetData(WETH.address),
     takerAssetData: encodeErc1155AssetData(
@@ -46,7 +44,6 @@ export const buildRangeOrder = (
     ),
     makerFeeAssetData: "0x",
     takerFeeAssetData: "0x",
-    chainId: 1,
   };
 
   return order;

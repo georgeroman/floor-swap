@@ -2,9 +2,9 @@ import { DAppProvider } from "@usedapp/core";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
-import Heading from "../components/Heading";
+import Heading from "components/Heading";
 
-import "../styles/globals.css";
+import "styles/globals.css";
 
 const AppWrapper = ({ Component, pageProps }: AppProps) => {
   return (
@@ -17,7 +17,7 @@ const AppWrapper = ({ Component, pageProps }: AppProps) => {
 
       <Heading />
 
-      <div className="md:m-5 flex flex-col justify-center">
+      <div className="m-5 flex flex-col justify-center">
         <Component {...pageProps} />
       </div>
     </DAppProvider>

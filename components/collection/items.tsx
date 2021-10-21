@@ -1,26 +1,27 @@
 import { useState } from "react";
+import LazyLoad from "react-lazyload";
 
 import {
   Collection,
-  getCollectionTokenRange,
+  getTokenIdRange,
   getUserFriendlyTokenId,
-} from "../../src/collection";
+} from "src/collections";
 
-import Modal from "../Modal";
+import Modal from "components/Modal";
 
 type Props = {
   collection: Collection;
 };
 
 const CollectionItems = ({ collection }: Props) => {
-  const [open, setOpen] = useState(false);
+  const [openTokenModal, setOpenTokenModal] = useState(false);
   const [tokenId, setTokenId] = useState(collection.tokenIdRange[0]);
 
   return (
     <>
       <Modal
-        toggled={open}
-        setToggled={setOpen}
+        toggled={openTokenModal}
+        setToggled={setOpenTokenModal}
         children={
           <div>
             <div className="h-96 mx-auto">
@@ -52,22 +53,24 @@ const CollectionItems = ({ collection }: Props) => {
         role="list"
         className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 mt-7"
       >
-        {getCollectionTokenRange(collection).map((tokenId) => (
+        {getTokenIdRange(collection).map((tokenId) => (
           <li
             key={tokenId}
             className="col-span-1 flex flex-col text-center bg-white rounded-lg border divide-y divide-gray-200 hover:shadow-md"
           >
             <button
               onClick={() => {
-                setOpen(true);
                 setTokenId(tokenId);
+                setOpenTokenModal(true);
               }}
             >
               <div className="flex-1 flex flex-col p-8">
-                <img
-                  className="w-36 h-36 flex-shrink-0 mx-auto object-scale-down"
-                  src={`${collection.baseImageUrl}/${tokenId}.png`}
-                />
+                <LazyLoad height="9rem">
+                  <img
+                    className="w-36 h-36 flex-shrink-0 mx-auto object-scale-down"
+                    src={`${collection.baseImageUrl}/${tokenId}.png`}
+                  />
+                </LazyLoad>
 
                 <h3 className="mt-6 text-sm font-medium mx-auto">
                   <span>#{getUserFriendlyTokenId(collection, tokenId)}</span>

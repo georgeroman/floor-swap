@@ -2,11 +2,11 @@ import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import { useState } from "react";
 
-import { getAllCollections } from "../../src/collection";
-import { classNames } from "../../src/utils";
+import { getAllCollections } from "src/collections";
+import { join } from "src/utils";
 
-import CollectionItems from "../../components/collection/items";
-import CollectionOffers from "../../components/collection/offers";
+import CollectionItems from "components/collection/items";
+import CollectionOffers from "components/collection/offers";
 
 const CollectionPage: NextPage = () => {
   const router = useRouter();
@@ -36,7 +36,7 @@ const CollectionPage: NextPage = () => {
 
       <nav className="my-5 flex justify-center space-x-4">
         <button
-          className={classNames(
+          className={join(
             tab === "items" ? "bg-gray-100" : "text-gray-500 hover:text-black",
             "px-3 py-2 font-medium text-sm rounded-md"
           )}
@@ -46,7 +46,7 @@ const CollectionPage: NextPage = () => {
         </button>
 
         <button
-          className={classNames(
+          className={join(
             tab === "offers" ? "bg-gray-100" : "text-gray-500 hover:text-black",
             "px-3 py-2 font-medium text-sm rounded-md"
           )}

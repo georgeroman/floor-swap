@@ -2,11 +2,39 @@ import { defaultAbiCoder } from "@ethersproject/abi";
 import { TypedDataSigner } from "@ethersproject/abstract-signer";
 import { BigNumberish } from "@ethersproject/bignumber";
 import { hexConcat, hexlify, splitSignature } from "@ethersproject/bytes";
+import { _TypedDataEncoder } from "@ethersproject/hash";
+import { verifyTypedData } from "@ethersproject/wallet";
 
-import { EXCHANGE } from "../contracts";
+import { EXCHANGE } from "src/contracts";
+import { activeChainId } from "src/network";
+
+const EIP712_DOMAIN = {
+  name: "0x Protocol",
+  version: "3.0.0",
+  chainId: activeChainId,
+  verifyingContract: EXCHANGE.address,
+};
+
+const EIP712_TYPES = {
+  Order: [
+    { name: "makerAddress", type: "address" },
+    { name: "takerAddress", type: "address" },
+    { name: "feeRecipientAddress", type: "address" },
+    { name: "senderAddress", type: "address" },
+    { name: "makerAssetAmount", type: "uint256" },
+    { name: "takerAssetAmount", type: "uint256" },
+    { name: "makerFee", type: "uint256" },
+    { name: "takerFee", type: "uint256" },
+    { name: "expirationTimeSeconds", type: "uint256" },
+    { name: "salt", type: "uint256" },
+    { name: "makerAssetData", type: "bytes" },
+    { name: "takerAssetData", type: "bytes" },
+    { name: "makerFeeAssetData", type: "bytes" },
+    { name: "takerFeeAssetData", type: "bytes" },
+  ],
+};
 
 export type Order = {
-  exchangeAddress: string;
   makerAddress: string;
   takerAddress: string;
   feeRecipientAddress: string;
@@ -21,42 +49,66 @@ export type Order = {
   takerAssetData: string;
   makerFeeAssetData: string;
   takerFeeAssetData: string;
-  chainId: number;
+  signature?: string;
 };
 
 export const signOrder = async (
   signer: TypedDataSigner,
   order: Order
 ): Promise<string> => {
-  const domain = {
-    name: "0x Protocol",
-    version: "3.0.0",
-    chainId: 1,
-    verifyingContract: EXCHANGE.address,
-  };
+  const rawSignature = await signer._signTypedData(
+    EIP712_DOMAIN,
+    EIP712_TYPES,
+    order
+  );
 
-  const types = {
-    Order: [
-      { name: "makerAddress", type: "address" },
-      { name: "takerAddress", type: "address" },
-      { name: "feeRecipientAddress", type: "address" },
-      { name: "senderAddress", type: "address" },
-      { name: "makerAssetAmount", type: "uint256" },
-      { name: "takerAssetAmount", type: "uint256" },
-      { name: "makerFee", type: "uint256" },
-      { name: "takerFee", type: "uint256" },
-      { name: "expirationTimeSeconds", type: "uint256" },
-      { name: "salt", type: "uint256" },
-      { name: "makerAssetData", type: "bytes" },
-      { name: "takerAssetData", type: "bytes" },
-      { name: "makerFeeAssetData", type: "bytes" },
-      { name: "takerFeeAssetData", type: "bytes" },
-    ],
-  };
+  return rawSignature;
+};
 
-  const rawSignature = await signer._signTypedData(domain, types, order);
+export const hashOrder = (order: Order): string =>
+  _TypedDataEncoder.hash(EIP712_DOMAIN, EIP712_TYPES, order);
+
+export const normalizeOrder = (order: Order): Order => {
+  return {
+    makerAddress: order.makerAddress.toLowerCase(),
+    takerAddress: order.takerAddress.toLowerCase(),
+    feeRecipientAddress: order.feeRecipientAddress.toLowerCase(),
+    senderAddress: order.senderAddress.toLowerCase(),
+    makerAssetAmount: order.makerAssetAmount.toLowerCase(),
+    takerAssetAmount: order.takerAssetAmount.toLowerCase(),
+    makerFee: order.makerFee.toLowerCase(),
+    takerFee: order.takerFee.toLowerCase(),
+    expirationTimeSeconds: order.expirationTimeSeconds.toLowerCase(),
+    salt: order.salt.toLowerCase(),
+    makerAssetData: order.makerAssetData.toLowerCase(),
+    takerAssetData: order.takerAssetData.toLowerCase(),
+    makerFeeAssetData: order.makerFeeAssetData.toLowerCase(),
+    takerFeeAssetData: order.takerFeeAssetData.toLowerCase(),
+    signature: order.signature?.toLowerCase(),
+  };
+};
+
+export const prepareOrderSignature = (rawSignature: string) => {
+  // Append the signature type (eg. "0x02" for EIP712 signatures)
+  // at the end of the signature since this is what 0x expects
   const signature = splitSignature(rawSignature);
   return hexConcat([hexlify(signature.v), signature.r, signature.s, "0x02"]);
+};
+
+export const verifyOrderSignature = (order: Order, signature: string) => {
+  try {
+    const maker = order.makerAddress.toLowerCase();
+    const signer = verifyTypedData(
+      EIP712_DOMAIN,
+      EIP712_TYPES,
+      order,
+      signature
+    );
+
+    return maker.toLowerCase() === signer.toLowerCase();
+  } catch {
+    return false;
+  }
 };
 
 export const encodeErc1155AssetData = (

@@ -37,8 +37,8 @@ const Heading = () => {
                   leaveTo="opacity-0 translate-y-1"
                 >
                   <Popover.Panel className="absolute right-0 z-10 mt-3 px-2 w-48 max-w-xs">
-                    <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                      <div className="block relative gap-3 bg-white sm:gap-4 sm:p-4">
+                    <div className="rounded-lg shadow-md ring-1 ring-black ring-opacity-5 overflow-hidden">
+                      <div className="block relative gap-3 bg-white gap-4 p-4">
                         <button
                           type="button"
                           className="text-sm font-medium hover:text-gray-600"

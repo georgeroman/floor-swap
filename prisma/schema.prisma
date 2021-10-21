@@ -1,0 +1,28 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model ZeroExV3Order {
+  hash String @id
+  fulfillable Boolean
+  makerAddress String
+  takerAddress String
+  feeRecipientAddress String
+  senderAddress String
+  makerAssetAmount Decimal @db.Decimal(78, 0)
+  takerAssetAmount Decimal @db.Decimal(78, 0)
+  makerFee Decimal @db.Decimal(78, 0)
+  takerFee Decimal @db.Decimal(78, 0)
+  expirationTimeSeconds Decimal @db.Decimal(78, 0)
+  salt String
+  makerAssetData String
+  takerAssetData String
+  makerFeeAssetData String
+  takerFeeAssetData String
+  signature String
+}

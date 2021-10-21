@@ -3,7 +3,7 @@ import { Fragment, ReactNode } from "react";
 
 type Props = {
   toggled: boolean;
-  setToggled: (open: boolean) => void;
+  setToggled: (toggled: boolean) => void;
   children: ReactNode;
 };
 
