@@ -9,7 +9,6 @@ generator client {
 
 model ZeroExV3Order {
   hash String @id
-  fulfillable Boolean
   makerAddress String
   takerAddress String
   feeRecipientAddress String
@@ -25,4 +24,5 @@ model ZeroExV3Order {
   makerFeeAssetData String
   takerFeeAssetData String
   signature String
+  fillable Boolean
 }

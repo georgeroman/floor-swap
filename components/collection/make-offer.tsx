@@ -15,7 +15,7 @@ type Props = {
   onSuccess: () => void;
 };
 
-const CollectionMakeOrder = ({ collection, onSuccess }: Props) => {
+const CollectionMakeOffer = ({ collection, onSuccess }: Props) => {
   const { account, library } = useEthers();
 
   const wethAllowance = useTokenAllowance(
@@ -208,4 +208,4 @@ const CollectionMakeOrder = ({ collection, onSuccess }: Props) => {
   );
 };
 
-export default CollectionMakeOrder;
+export default CollectionMakeOffer;

@@ -5,10 +5,10 @@ export const getNetworkName = (chainId: number) => {
     case 1:
       return "mainnet";
 
-    case 3:
+    case 4:
       return "rinkeby";
 
-    case 4:
+    default:
       return "unsupported";
   }
 };

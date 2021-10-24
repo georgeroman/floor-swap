@@ -41,6 +41,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
           expirationTimeSeconds: {
             gt: now(),
           },
+          fillable: true,
         },
       });
 
@@ -57,13 +58,11 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
       // Make sure the hashes match
       if (hashOrder(validOrder) !== hashOrder(order)) {
-        console.log("order invalid");
         return res.status(422).json({ error: { message: "Invalid order" } });
       }
 
       // Make sure the signature is valid
       if (!verifyOrderSignature(order, order.signature!)) {
-        console.log("signature invalid");
         return res
           .status(422)
           .json({ error: { message: "Invalid signature" } });
@@ -74,6 +73,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
           hash: hashOrder(order),
           ...order,
           signature: order.signature!,
+          fillable: true,
         },
       });
 

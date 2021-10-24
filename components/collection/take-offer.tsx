@@ -1,9 +1,15 @@
+import { parseEther } from "@ethersproject/units";
 import { useEthers } from "@usedapp/core";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import LazyLoad from "react-lazyload";
 
-import { hashOrder, Order, prepareOrderSignature } from "src/0x/exchange";
+import {
+  Order,
+  hashOrder,
+  normalizeOrder,
+  prepareOrderSignature,
+} from "src/0x/exchange";
 import { Collection, getUserFriendlyTokenId, getSlug } from "src/collections";
 import { BROKER, ERC721 } from "src/contracts";
 import multicall from "src/multicall";
@@ -16,7 +22,7 @@ type Props = {
   onSuccess: () => void;
 };
 
-const CollectionTakeOrder = ({ collection, order, onSuccess }: Props) => {
+const CollectionTakeOffer = ({ collection, order, onSuccess }: Props) => {
   const { account, library } = useEthers();
 
   const [tokenList, setTokenList] = useState<string[]>([]);
@@ -51,7 +57,16 @@ const CollectionTakeOrder = ({ collection, order, onSuccess }: Props) => {
           }))
         );
 
-        tokenIds = [...tokenIds, ...data.map((tokenId) => tokenId.toString())];
+        tokenIds = [
+          ...tokenIds,
+          ...data
+            .filter(
+              (tokenId) =>
+                bn(tokenId.toString()).gte(collection.tokenIdRange[0]) &&
+                bn(tokenId.toString()).lte(collection.tokenIdRange[1])
+            )
+            .map((tokenId) => tokenId.toString()),
+        ];
         balance -= MAX_COUNT;
       }
 
@@ -142,33 +157,22 @@ const CollectionTakeOrder = ({ collection, order, onSuccess }: Props) => {
                     try {
                       setStep("Waiting for fill transaction");
 
-                      const tx = BROKER.connect(signer).brokerTrade(
+                      const tx = await BROKER.connect(signer).brokerTrade(
                         [tokenId],
-                        [
-                          order.makerAddress,
-                          order.takerAddress,
-                          order.feeRecipientAddress,
-                          order.senderAddress,
-                          order.makerAssetAmount,
-                          order.takerAssetAmount,
-                          order.makerFee,
-                          order.takerFee,
-                          order.expirationTimeSeconds,
-                          order.salt,
-                          order.makerAssetData,
-                          order.takerAssetData,
-                          order.makerFeeAssetData,
-                          order.takerFeeAssetData,
-                        ],
+                        normalizeOrder(order as any),
                         order.takerAssetAmount,
                         prepareOrderSignature(order.signature!),
                         "0x9b44d556",
                         [],
                         [],
-                        // Mainnet fees are set to 0, Rinkeby fees are still on
-                        activeChainId !== 1
-                          ? { value: "1000000000000000" }
-                          : undefined
+                        {
+                          gasLimit: "500000",
+                          // Mainnet fees are set to 0, Rinkeby fees are still on
+                          value:
+                            activeChainId !== 1
+                              ? parseEther("0.001")
+                              : undefined,
+                        }
                       );
                       await tx.wait();
                     } catch (error) {
@@ -188,9 +192,6 @@ const CollectionTakeOrder = ({ collection, order, onSuccess }: Props) => {
                       );
                     } catch (error) {
                       console.error(error);
-
-                      setStep("Confirm");
-                      return setError("Could not relay order to the orderbook");
                     }
 
                     onSuccess();
@@ -220,4 +221,4 @@ const CollectionTakeOrder = ({ collection, order, onSuccess }: Props) => {
   );
 };
 
-export default CollectionTakeOrder;
+export default CollectionTakeOffer;

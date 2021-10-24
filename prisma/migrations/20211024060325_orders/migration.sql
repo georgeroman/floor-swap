@@ -16,6 +16,7 @@ CREATE TABLE "ZeroExV3Order" (
     "makerFeeAssetData" TEXT NOT NULL,
     "takerFeeAssetData" TEXT NOT NULL,
     "signature" TEXT NOT NULL,
+    "fillable" BOOLEAN NOT NULL,
 
     CONSTRAINT "ZeroExV3Order_pkey" PRIMARY KEY ("hash")
 );

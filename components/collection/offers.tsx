@@ -3,16 +3,16 @@ import { useEthers } from "@usedapp/core";
 import { useState } from "react";
 import useSWR from "swr";
 
-import { Order } from "src/0x/exchange";
+import { Order, normalizeOrder } from "src/0x/exchange";
 import { Collection, getSlug } from "src/collections";
 import { activeChainId, getNetworkName } from "src/network";
 import { fetcher, formatExpiration } from "src/utils";
-import { TESTNET_COLLECTION } from "src/contracts";
+import { EXCHANGE, TESTNET_COLLECTION } from "src/contracts";
 
 import Modal from "components/Modal";
 import Notification from "components/Notification";
-import CollectionMakeOrder from "components/collection/make-order";
-import CollectionTakeOrder from "components/collection/take-order";
+import CollectionMakeOffer from "components/collection/make-offer";
+import CollectionTakeOffer from "components/collection/take-offer";
 
 type Props = {
   collection: Collection;
@@ -50,7 +50,7 @@ const CollectionOffers = ({ collection }: Props) => {
         toggled={openMakeModal}
         setToggled={setOpenMakeModal}
         children={
-          <CollectionMakeOrder
+          <CollectionMakeOffer
             collection={collection}
             onSuccess={() => {
               setOpenMakeModal(false);
@@ -65,7 +65,7 @@ const CollectionOffers = ({ collection }: Props) => {
         toggled={openTakeModal}
         setToggled={setOpenTakeModal}
         children={
-          <CollectionTakeOrder
+          <CollectionTakeOffer
             collection={collection}
             order={takenOrder!}
             onSuccess={() => {
@@ -195,20 +195,97 @@ const CollectionOffers = ({ collection }: Props) => {
                                     <button
                                       type="button"
                                       className="mx-auto inline-flex items-center text-sm font-medium hover:text-gray-600 mr-3"
+                                      onClick={async () => {
+                                        if (!account) {
+                                          return notify("Connect your wallet");
+                                        }
+
+                                        if (!library) {
+                                          return notify(
+                                            "Could not connect to wallet"
+                                          );
+                                        }
+
+                                        if (
+                                          chainId?.valueOf() !== activeChainId
+                                        ) {
+                                          return notify(
+                                            `Switch network to ${getNetworkName(
+                                              activeChainId
+                                            )}`
+                                          );
+                                        }
+
+                                        const signer = library.getSigner();
+                                        const tx = await EXCHANGE.connect(
+                                          signer
+                                        ).cancelOrder(
+                                          normalizeOrder(order as any)
+                                        );
+
+                                        // TODO: Do something similar to this:
+                                        /*
+try {
+                      setStep("Waiting for fill transaction");
+
+                      const tx = await BROKER.connect(signer).brokerTrade(
+                        [tokenId],
+                        normalizeOrder(order as any),
+                        order.takerAssetAmount,
+                        prepareOrderSignature(order.signature!),
+                        "0x9b44d556",
+                        [],
+                        [],
+                        {
+                          gasLimit: "500000",
+                          // Mainnet fees are set to 0, Rinkeby fees are still on
+                          value:
+                            activeChainId !== 1
+                              ? parseEther("0.001")
+                              : undefined,
+                        }
+                      );
+                      await tx.wait();
+                    } catch (error) {
+                      console.error(error);
+
+                      setStep("Select token");
+                      return setError("Could not execute trade");
+                    }
+
+                    try {
+                      setStep("Bookkeeping");
+
+                      await axios.post(
+                        `/api/collections/${getSlug(
+                          collection
+                        )}/orders/${hashOrder(order)}`
+                      );
+                    } catch (error) {
+                      console.error(error);
+                    }
+
+                                        */
+
+                                        await tx.wait();
+                                      }}
                                     >
                                       Cancel
                                     </button>
                                   )}
-                                  <button
-                                    type="button"
-                                    className="mx-auto inline-flex items-center text-sm font-medium hover:text-gray-600"
-                                    onClick={() => {
-                                      setTakenOrder(order);
-                                      setOpenTakeModal(true);
-                                    }}
-                                  >
-                                    Take
-                                  </button>
+                                  {account.toLowerCase() !==
+                                    order.makerAddress.toLowerCase() && (
+                                    <button
+                                      type="button"
+                                      className="mx-auto inline-flex items-center text-sm font-medium hover:text-gray-600"
+                                      onClick={() => {
+                                        setTakenOrder(order);
+                                        setOpenTakeModal(true);
+                                      }}
+                                    >
+                                      Take
+                                    </button>
+                                  )}
                                 </td>
                               )}
                             </tr>
