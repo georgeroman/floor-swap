@@ -61,11 +61,17 @@ export const DEV_UTILS = new Contract(
           bytes takerFeeAssetData
         ) order,
         bytes signature
-      ) public returns (
+      ) returns (
         (uint8 orderStatus, bytes32 orderHash, uint256 orderTakerAssetFilledAmount) orderInfo,
         uint256 fillableTakerAssetAmount,
         bool isValidSignature
       )
+    `,
+    `
+      function getTransferableAssetAmount(
+        address ownerAddress,
+        bytes assetData
+      ) returns (uint256 transferableAssetAmount)
     `,
   ])
 );
@@ -84,7 +90,22 @@ export const EXCHANGE = new Contract(
   new Interface([
     `
       function cancelOrder(
-        (address,address,address,address,uint256,uint256,uint256,uint256,uint256,uint256,bytes,bytes,bytes,bytes) order
+        (
+          address makerAddress,
+          address takerAddress,
+          address feeRecipientAddress,
+          address senderAddress,
+          uint256 makerAssetAmount,
+          uint256 takerAssetAmount,
+          uint256 makerFee,
+          uint256 takerFee,
+          uint256 expirationTimeSeconds,
+          uint256 salt,
+          bytes makerAssetData,
+          bytes takerAssetData,
+          bytes makerFeeAssetData,
+          bytes takerFeeAssetData
+        ) order,
       )
     `,
   ])
@@ -95,7 +116,7 @@ export const MULTICALL = new Contract(
     ? "0xeefba1e63905ef1d7acba5a8513c70307c1ce441"
     : "0x42ad527de7d4e9d9d011ac45b31d8551f8fe9821",
   new Interface([
-    "function aggregate((address, bytes)[]) public returns (uint256 blockNumber, bytes[] returnData)",
+    "function aggregate((address, bytes)[]) returns (uint256 blockNumber, bytes[] returnData)",
   ])
 );
 

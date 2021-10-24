@@ -21,7 +21,7 @@ export const buildRangeOrder = (
     makerAddress: maker,
     takerAddress: AddressZero,
     feeRecipientAddress: AddressZero,
-    senderAddress: BROKER.address,
+    senderAddress: AddressZero,
     makerAssetAmount: price.toString(),
     takerAssetAmount: "1",
     makerFee: "0",

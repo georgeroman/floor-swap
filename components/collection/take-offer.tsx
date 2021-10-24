@@ -1,16 +1,10 @@
 import { parseEther } from "@ethersproject/units";
 import { useEthers } from "@usedapp/core";
-import axios from "axios";
 import { useEffect, useState } from "react";
 import LazyLoad from "react-lazyload";
 
-import {
-  Order,
-  hashOrder,
-  normalizeOrder,
-  prepareOrderSignature,
-} from "src/0x/exchange";
-import { Collection, getUserFriendlyTokenId, getSlug } from "src/collections";
+import { Order, normalizeOrder, prepareOrderSignature } from "src/0x/exchange";
+import { Collection, getUserFriendlyTokenId } from "src/collections";
 import { BROKER, ERC721 } from "src/contracts";
 import multicall from "src/multicall";
 import { activeChainId } from "src/network";
@@ -155,7 +149,7 @@ const CollectionTakeOffer = ({ collection, order, onSuccess }: Props) => {
                     }
 
                     try {
-                      setStep("Waiting for fill transaction");
+                      setStep("Waiting for trade transaction");
 
                       const tx = await BROKER.connect(signer).brokerTrade(
                         [tokenId],
@@ -180,18 +174,6 @@ const CollectionTakeOffer = ({ collection, order, onSuccess }: Props) => {
 
                       setStep("Select token");
                       return setError("Could not execute trade");
-                    }
-
-                    try {
-                      setStep("Bookkeeping");
-
-                      await axios.post(
-                        `/api/collections/${getSlug(
-                          collection
-                        )}/orders/${hashOrder(order)}`
-                      );
-                    } catch (error) {
-                      console.error(error);
                     }
 
                     onSuccess();

@@ -1,5 +1,6 @@
 import { formatEther } from "@ethersproject/units";
 import { useEthers } from "@usedapp/core";
+import axios from "axios";
 import { useState } from "react";
 import useSWR from "swr";
 
@@ -56,6 +57,11 @@ const CollectionOffers = ({ collection }: Props) => {
               setOpenMakeModal(false);
               notify("Order successfully created");
               mutate();
+
+              // Check all collection orders
+              axios
+                .post(`/api/collections/${getSlug(collection)}/check`)
+                .then(mutate);
             }}
           />
         }
@@ -71,7 +77,11 @@ const CollectionOffers = ({ collection }: Props) => {
             onSuccess={() => {
               setOpenTakeModal(false);
               notify("Trade executed successfully");
-              mutate();
+
+              // Check all collection orders
+              axios
+                .post(`/api/collections/${getSlug(collection)}/check`)
+                .then(mutate);
             }}
           />
         }
@@ -194,7 +204,7 @@ const CollectionOffers = ({ collection }: Props) => {
                                     order.makerAddress.toLowerCase() && (
                                     <button
                                       type="button"
-                                      className="mx-auto inline-flex items-center text-sm font-medium hover:text-gray-600 mr-3"
+                                      className="mx-auto inline-flex items-center text-sm font-medium hover:text-gray-600"
                                       onClick={async () => {
                                         if (!account) {
                                           return notify("Connect your wallet");
@@ -216,58 +226,40 @@ const CollectionOffers = ({ collection }: Props) => {
                                           );
                                         }
 
-                                        const signer = library.getSigner();
-                                        const tx = await EXCHANGE.connect(
-                                          signer
-                                        ).cancelOrder(
-                                          normalizeOrder(order as any)
+                                        const signer = library?.getSigner();
+                                        if (!signer) {
+                                          return notify(
+                                            "Could not connect to wallet"
+                                          );
+                                        }
+
+                                        try {
+                                          const tx = await EXCHANGE.connect(
+                                            signer
+                                          ).cancelOrder(
+                                            normalizeOrder(order as any)
+                                          );
+                                          await tx.wait();
+                                        } catch (error) {
+                                          console.error(error);
+
+                                          return notify(
+                                            "Could not cancel order"
+                                          );
+                                        }
+
+                                        // Check all collection orders
+                                        axios
+                                          .post(
+                                            `/api/collections/${getSlug(
+                                              collection
+                                            )}/check`
+                                          )
+                                          .then(mutate);
+
+                                        return notify(
+                                          "Order successfully cancelled"
                                         );
-
-                                        // TODO: Do something similar to this:
-                                        /*
-try {
-                      setStep("Waiting for fill transaction");
-
-                      const tx = await BROKER.connect(signer).brokerTrade(
-                        [tokenId],
-                        normalizeOrder(order as any),
-                        order.takerAssetAmount,
-                        prepareOrderSignature(order.signature!),
-                        "0x9b44d556",
-                        [],
-                        [],
-                        {
-                          gasLimit: "500000",
-                          // Mainnet fees are set to 0, Rinkeby fees are still on
-                          value:
-                            activeChainId !== 1
-                              ? parseEther("0.001")
-                              : undefined,
-                        }
-                      );
-                      await tx.wait();
-                    } catch (error) {
-                      console.error(error);
-
-                      setStep("Select token");
-                      return setError("Could not execute trade");
-                    }
-
-                    try {
-                      setStep("Bookkeeping");
-
-                      await axios.post(
-                        `/api/collections/${getSlug(
-                          collection
-                        )}/orders/${hashOrder(order)}`
-                      );
-                    } catch (error) {
-                      console.error(error);
-                    }
-
-                                        */
-
-                                        await tx.wait();
                                       }}
                                     >
                                       Cancel
@@ -277,7 +269,7 @@ try {
                                     order.makerAddress.toLowerCase() && (
                                     <button
                                       type="button"
-                                      className="mx-auto inline-flex items-center text-sm font-medium hover:text-gray-600"
+                                      className="mx-auto inline-flex items-center text-sm font-medium hover:text-gray-600 ml-3"
                                       onClick={() => {
                                         setTakenOrder(order);
                                         setOpenTakeModal(true);
