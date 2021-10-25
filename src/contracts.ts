@@ -1,7 +1,7 @@
 import { Interface } from "@ethersproject/abi";
 import { Contract } from "@ethersproject/contracts";
 
-import { activeChainId } from "src/network";
+import { activeChainId } from "@/src/network";
 
 export const BROKER = new Contract(
   activeChainId === 1

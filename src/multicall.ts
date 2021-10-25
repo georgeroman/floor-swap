@@ -1,7 +1,7 @@
 import { Interface } from "@ethersproject/abi";
 import { Provider } from "@ethersproject/abstract-provider";
 
-import { MULTICALL } from "src/contracts";
+import { MULTICALL } from "@/src/contracts";
 
 type Call = {
   target: string;

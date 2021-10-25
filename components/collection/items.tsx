@@ -5,9 +5,9 @@ import {
   Collection,
   getTokenIdRange,
   getUserFriendlyTokenId,
-} from "src/collections";
+} from "@/src/collections";
 
-import Modal from "components/Modal";
+import Modal from "@/components/Modal";
 
 type Props = {
   collection: Collection;

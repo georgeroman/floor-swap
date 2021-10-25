@@ -4,11 +4,11 @@ import { useEthers, useTokenAllowance, useTokenBalance } from "@usedapp/core";
 import axios from "axios";
 import { useState } from "react";
 
-import { buildRangeOrder } from "src/0x/broker";
-import { signOrder } from "src/0x/exchange";
-import { Collection, getSlug } from "src/collections";
-import { ERC20_PROXY, WETH } from "src/contracts";
-import { now } from "src/utils";
+import { buildRangeOrder } from "@/src/0x/broker";
+import { signOrder } from "@/src/0x/exchange";
+import { Collection, getSlug } from "@/src/collections";
+import { ERC20_PROXY, WETH } from "@/src/contracts";
+import { now } from "@/src/utils";
 
 type Props = {
   collection: Collection;

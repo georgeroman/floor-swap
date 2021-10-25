@@ -4,16 +4,16 @@ import axios from "axios";
 import { useState } from "react";
 import useSWR from "swr";
 
-import { Order, normalizeOrder } from "src/0x/exchange";
-import { Collection, getSlug } from "src/collections";
-import { activeChainId, getNetworkName } from "src/network";
-import { fetcher, formatExpiration } from "src/utils";
-import { EXCHANGE, TESTNET_COLLECTION } from "src/contracts";
+import { Order, normalizeOrder } from "@/src/0x/exchange";
+import { Collection, getSlug } from "@/src/collections";
+import { activeChainId, getNetworkName } from "@/src/network";
+import { fetcher, formatExpiration } from "@/src/utils";
+import { EXCHANGE, TESTNET_COLLECTION } from "@/src/contracts";
 
-import Modal from "components/Modal";
-import Notification from "components/Notification";
-import CollectionMakeOffer from "components/collection/make-offer";
-import CollectionTakeOffer from "components/collection/take-offer";
+import Modal from "@/components/Modal";
+import Notification from "@/components/Notification";
+import CollectionMakeOffer from "@/components/collection/make-offer";
+import CollectionTakeOffer from "@/components/collection/take-offer";
 
 type Props = {
   collection: Collection;
@@ -56,9 +56,11 @@ const CollectionOffers = ({ collection }: Props) => {
             onSuccess={() => {
               setOpenMakeModal(false);
               notify("Order successfully created");
+
+              // Mutate to fetch the newly created order
               mutate();
 
-              // Check all collection orders
+              // Trigger a check all collection orders
               axios
                 .post(`/api/collections/${getSlug(collection)}/check`)
                 .then(mutate);
@@ -78,7 +80,7 @@ const CollectionOffers = ({ collection }: Props) => {
               setOpenTakeModal(false);
               notify("Trade executed successfully");
 
-              // Check all collection orders
+              // Trigger a check all collection orders
               axios
                 .post(`/api/collections/${getSlug(collection)}/check`)
                 .then(mutate);
@@ -206,6 +208,8 @@ const CollectionOffers = ({ collection }: Props) => {
                                       type="button"
                                       className="mx-auto inline-flex items-center text-sm font-medium hover:text-gray-600"
                                       onClick={async () => {
+                                        // TODO: Abstractize common/duplicated code
+
                                         if (!account) {
                                           return notify("Connect your wallet");
                                         }
@@ -265,6 +269,7 @@ const CollectionOffers = ({ collection }: Props) => {
                                       Cancel
                                     </button>
                                   )}
+
                                   {account.toLowerCase() !==
                                     order.makerAddress.toLowerCase() && (
                                     <button

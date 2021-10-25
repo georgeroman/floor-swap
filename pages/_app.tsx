@@ -2,9 +2,9 @@ import { DAppProvider } from "@usedapp/core";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
-import Heading from "components/Heading";
+import Heading from "@/components/Heading";
 
-import "styles/globals.css";
+import "@/styles/globals.css";
 
 const AppWrapper = ({ Component, pageProps }: AppProps) => {
   return (

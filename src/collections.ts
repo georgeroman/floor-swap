@@ -1,5 +1,5 @@
-import { activeChainId } from "src/network";
-import { bn } from "src/utils";
+import { activeChainId } from "@/src/network";
+import { bn } from "@/src/utils";
 
 export type Collection = {
   address: string;

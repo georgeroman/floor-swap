@@ -2,15 +2,15 @@ import { AddressZero } from "@ethersproject/constants";
 import { PrismaClient } from "@prisma/client";
 import type { NextApiRequest, NextApiResponse } from "next";
 
-import { buildRangeOrder } from "src/0x/broker";
+import { buildRangeOrder } from "@/src/0x/broker";
 import {
   Order,
   hashOrder,
   normalizeOrder,
   verifyOrderSignature,
-} from "src/0x/exchange";
-import { getAllCollections } from "src/collections";
-import { now } from "src/utils";
+} from "@/src/0x/exchange";
+import { getAllCollections } from "@/src/collections";
+import { now } from "@/src/utils";
 
 const prisma = new PrismaClient();
 
@@ -21,7 +21,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   }
 
   // This mock order serves two purposes:
-  // - easily filtering orders
+  // - easily filtering orders by collection
   // - validating that all incoming orders are properly configured
   const mockOrder = buildRangeOrder(
     AddressZero,
@@ -77,7 +77,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         },
       });
 
-      return res.json({ data: { order } });
+      return res.json({ data: { message: "Order created" } });
     }
   } catch (error) {
     console.error(`Internal error: ${error}`);

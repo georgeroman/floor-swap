@@ -6,9 +6,9 @@ import {
   Order,
   encodeErc1155AssetData,
   encodeErc20AssetData,
-} from "src/0x/exchange";
-import { BROKER, RANGE_PROPERTY_VALIDATOR, WETH } from "src/contracts";
-import { bn } from "src/utils";
+} from "@/src/0x/exchange";
+import { BROKER, RANGE_PROPERTY_VALIDATOR, WETH } from "@/src/contracts";
+import { bn } from "@/src/utils";
 
 export const buildRangeOrder = (
   maker: string,

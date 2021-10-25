@@ -2,6 +2,7 @@ import { BigNumber, BigNumberish } from "@ethersproject/bignumber";
 import TimeAgo from "javascript-time-ago";
 import en from "javascript-time-ago/locale/en.json";
 
+// TODO: Fix `can only be called once` warnings
 TimeAgo.addDefaultLocale(en);
 
 // Time

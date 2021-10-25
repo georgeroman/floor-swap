@@ -5,8 +5,8 @@ import { hexConcat, hexlify, splitSignature } from "@ethersproject/bytes";
 import { _TypedDataEncoder } from "@ethersproject/hash";
 import { verifyTypedData } from "@ethersproject/wallet";
 
-import { EXCHANGE } from "src/contracts";
-import { activeChainId } from "src/network";
+import { EXCHANGE } from "@/src/contracts";
+import { activeChainId } from "@/src/network";
 
 const EIP712_DOMAIN = {
   name: "0x Protocol",

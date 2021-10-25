@@ -1,14 +1,20 @@
 import { parseEther } from "@ethersproject/units";
 import { useEthers } from "@usedapp/core";
+import axios from "axios";
 import { useEffect, useState } from "react";
 import LazyLoad from "react-lazyload";
 
-import { Order, normalizeOrder, prepareOrderSignature } from "src/0x/exchange";
-import { Collection, getUserFriendlyTokenId } from "src/collections";
-import { BROKER, ERC721 } from "src/contracts";
-import multicall from "src/multicall";
-import { activeChainId } from "src/network";
-import { bn } from "src/utils";
+import {
+  Order,
+  normalizeOrder,
+  prepareOrderSignature,
+} from "@/src/0x/exchange";
+import { checkOrders } from "@/src/0x/checker";
+import { Collection, getSlug, getUserFriendlyTokenId } from "@/src/collections";
+import { BROKER, ERC721 } from "@/src/contracts";
+import multicall from "@/src/multicall";
+import { activeChainId } from "@/src/network";
+import { bn } from "@/src/utils";
 
 type Props = {
   collection: Collection;
@@ -28,13 +34,23 @@ const CollectionTakeOffer = ({ collection, order, onSuccess }: Props) => {
   useEffect(() => {
     const doAsyncWork = async () => {
       const signer = library?.getSigner()!;
-      const contract = ERC721(collection.address);
 
-      let tokenIds: string[] = [];
+      // First, check order fillability
+      const [isFillable] = await checkOrders(signer.provider, [order]);
+      if (!isFillable) {
+        // Trigger a check all collection orders
+        axios.post(`/api/collections/${getSlug(collection)}/check`);
+
+        return setError("Order is not valid anymore");
+      }
+
+      const contract = ERC721(collection.address);
 
       let balance = (
         await contract.connect(signer.provider).balanceOf(account)
       ).toNumber();
+
+      let tokenIds: string[] = [];
 
       // On-chain read might timeout if we try to read too much data
       // so we need to cap the number of calls we do at once
@@ -76,9 +92,11 @@ const CollectionTakeOffer = ({ collection, order, onSuccess }: Props) => {
 
   return (
     <div className="block max-h-full">
-      {!tokenListInitialized && <span>Loading...</span>}
+      {error && !tokenListInitialized && <span>{error}</span>}
 
-      {tokenListInitialized && tokenList.length === 0 && (
+      {!error && !tokenListInitialized && <span>Loading...</span>}
+
+      {!error && tokenListInitialized && tokenList.length === 0 && (
         <span>You have no tokens available for selling</span>
       )}
 

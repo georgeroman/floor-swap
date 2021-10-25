@@ -2,11 +2,11 @@ import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import { useState } from "react";
 
-import { getAllCollections } from "src/collections";
-import { join } from "src/utils";
+import { getAllCollections } from "@/src/collections";
+import { join } from "@/src/utils";
 
-import CollectionItems from "components/collection/items";
-import CollectionOffers from "components/collection/offers";
+import CollectionItems from "@/components/collection/items";
+import CollectionOffers from "@/components/collection/offers";
 
 const CollectionPage: NextPage = () => {
   const router = useRouter();

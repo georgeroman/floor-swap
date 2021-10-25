@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Link from "next/link";
 import LazyLoad from "react-lazyload";
 
-import { getAllCollections } from "src/collections";
+import { getAllCollections } from "@/src/collections";
 
 const IndexPage: NextPage = () => {
   return (
